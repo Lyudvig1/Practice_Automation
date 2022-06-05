@@ -1,0 +1,168 @@
+{
+  "uid" : "8c0d0a43c02acec",
+  "name" : "Select an option from the checkbox",
+  "fullName" : "Automation Practice.Select an option from the checkbox",
+  "historyId" : "979d9d17d569a9b51f646402e6355d09",
+  "time" : {
+    "start" : 1654455065782,
+    "stop" : 1654455065919,
+    "duration" : 137
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select an option from the checkbox"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4399db953f71651b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654454291861,
+        "stop" : 1654454292016,
+        "duration" : 155
+      }
+    }, {
+      "uid" : "b463756d7140bc5c",
+      "status" : "broken",
+      "statusDetails" : "Page is not defined",
+      "time" : {
+        "start" : 1654453610330,
+        "stop" : 1654453610618,
+        "duration" : 288
+      }
+    }, {
+      "uid" : "d65e254ab7693676",
+      "status" : "broken",
+      "statusDetails" : "Page is not defined",
+      "time" : {
+        "start" : 1654453443728,
+        "stop" : 1654453444005,
+        "duration" : 277
+      }
+    }, {
+      "uid" : "5ed9e007ad388fd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654451131541,
+        "stop" : 1654451131687,
+        "duration" : 146
+      }
+    }, {
+      "uid" : "abee9d686961ef02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654449334891,
+        "stop" : 1654449335037,
+        "duration" : 146
+      }
+    }, {
+      "uid" : "d3081825089d0bad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654449160369,
+        "stop" : 1654449160557,
+        "duration" : 188
+      }
+    }, {
+      "uid" : "32589fb1c34f75e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654446100232,
+        "stop" : 1654446100381,
+        "duration" : 149
+      }
+    }, {
+      "uid" : "fac6c03589d9bb09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654444483870,
+        "stop" : 1654444484204,
+        "duration" : 334
+      }
+    }, {
+      "uid" : "e43ea4cd01bdd429",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654438748238,
+        "stop" : 1654438748559,
+        "duration" : 321
+      }
+    }, {
+      "uid" : "1c34371343b9c79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654287356667,
+        "stop" : 1654287356817,
+        "duration" : 150
+      }
+    }, {
+      "uid" : "553263d46eca5571",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654287057370,
+        "stop" : 1654287057519,
+        "duration" : 149
+      }
+    }, {
+      "uid" : "11b73f8896232e2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654286983288,
+        "stop" : 1654286983438,
+        "duration" : 150
+      }
+    }, {
+      "uid" : "e4949691ec6537b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654286835140,
+        "stop" : 1654286835296,
+        "duration" : 156
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c0d0a43c02acec.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

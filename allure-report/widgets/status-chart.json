@@ -1,0 +1,221 @@
+[ {
+  "uid" : "cbbfd5e792b45e3c",
+  "name" : "Navigate to the frame section",
+  "time" : {
+    "start" : 1654444550327,
+    "stop" : 1654444556520,
+    "duration" : 6193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5db23d12eb4abd42",
+  "name" : "Should scroll down to the page footer section",
+  "time" : {
+    "start" : 1654455107854,
+    "stop" : 1654455111070,
+    "duration" : 3216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14968f61f97b6509",
+  "name" : "Typing text in the search field",
+  "time" : {
+    "start" : 1654455065919,
+    "stop" : 1654455066168,
+    "duration" : 249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cf366fef775fafa",
+  "name" : "\"before all\" hook for Automation Practice",
+  "time" : {
+    "start" : 1654451101043,
+    "stop" : 1654451101045,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a1d688b4725b11f1",
+  "name" : "Select the radio button",
+  "time" : {
+    "start" : 1654455441129,
+    "stop" : 1654455446074,
+    "duration" : 4945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5ec1dd3aa1de0f5",
+  "name" : "Navigate to the frame section",
+  "time" : {
+    "start" : 1654444516861,
+    "stop" : 1654444516861,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "390b1bbd49c66415",
+  "name" : "Checked hide/show input field",
+  "time" : {
+    "start" : 1654455119250,
+    "stop" : 1654455121755,
+    "duration" : 2505
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93ceb9871d81781",
+  "name" : "Select the radio button",
+  "time" : {
+    "start" : 1654253785552,
+    "stop" : 1654253795869,
+    "duration" : 10317
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "85bee96e1389a404",
+  "name" : "Select the coutntry in search dropdown",
+  "time" : {
+    "start" : 1654455066168,
+    "stop" : 1654455066851,
+    "duration" : 683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bddeca94138dc42b",
+  "name" : "Select the item in iframe section",
+  "time" : {
+    "start" : 1654455122000,
+    "stop" : 1654455125366,
+    "duration" : 3366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ddfd76a06e31cfb1",
+  "name" : "Navigate to the iframe section",
+  "time" : {
+    "start" : 1654455121755,
+    "stop" : 1654455122000,
+    "duration" : 245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59c68bbf458b5669",
+  "name" : "Typing text in alert field",
+  "time" : {
+    "start" : 1654451160755,
+    "stop" : 1654451161329,
+    "duration" : 574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c25a07e2e0f071e9",
+  "name" : "Navigate to the new window",
+  "time" : {
+    "start" : 1654455066851,
+    "stop" : 1654455107853,
+    "duration" : 41002
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70ceb613222f1ec3",
+  "name" : "Should scroll down to the selected item and click on it",
+  "time" : {
+    "start" : 1654287381226,
+    "stop" : 1654287381226,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4d032ee98f5ad2c",
+  "name" : "Check alert functionality",
+  "time" : {
+    "start" : 1654455118698,
+    "stop" : 1654455119250,
+    "duration" : 552
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65264b46c0a87912",
+  "name" : "Typing text in the text field",
+  "time" : {
+    "start" : 1654448356562,
+    "stop" : 1654448361581,
+    "duration" : 5019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c29d45aea6a55917",
+  "name" : "Should scroll down to the selected item and click on it",
+  "time" : {
+    "start" : 1654455112680,
+    "stop" : 1654455118697,
+    "duration" : 6017
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64db244bb2dd508a",
+  "name" : " Select an item from the dynamic dropdown",
+  "time" : {
+    "start" : 1654455446074,
+    "stop" : 1654455446450,
+    "duration" : 376
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "794813a6ea6e428d",
+  "name" : "Select an item from the static dropdown",
+  "time" : {
+    "start" : 1654268242524,
+    "stop" : 1654268242942,
+    "duration" : 418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c0d0a43c02acec",
+  "name" : "Select an option from the checkbox",
+  "time" : {
+    "start" : 1654455065782,
+    "stop" : 1654455065919,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a193a1c6c292525a",
+  "name" : "Should scroll up to page footer section",
+  "time" : {
+    "start" : 1654282138103,
+    "stop" : 1654282141603,
+    "duration" : 3500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a48ec485df8d231c",
+  "name" : "Navigate to the new tab",
+  "time" : {
+    "start" : 1654455111070,
+    "stop" : 1654455112680,
+    "duration" : 1610
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

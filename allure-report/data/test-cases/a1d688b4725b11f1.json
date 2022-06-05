@@ -1,0 +1,595 @@
+{
+  "uid" : "a1d688b4725b11f1",
+  "name" : "Select the radio button",
+  "fullName" : "Automation Practice.Select the radio button",
+  "historyId" : "3c87de9b97cc4d90d4ce208334364b88",
+  "time" : {
+    "start" : 1654455441129,
+    "stop" : 1654455446074,
+    "duration" : 4945
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 65,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select the radio button"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fc207a136508a24c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455335279,
+        "stop" : 1654455340291,
+        "duration" : 5012
+      }
+    }, {
+      "uid" : "f9f90d1fde2e3623",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455060005,
+        "stop" : 1654455065328,
+        "duration" : 5323
+      }
+    }, {
+      "uid" : "30586137c578abfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654454284716,
+        "stop" : 1654454291490,
+        "duration" : 6774
+      }
+    }, {
+      "uid" : "ed772702a716a1ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654453605031,
+        "stop" : 1654453609919,
+        "duration" : 4888
+      }
+    }, {
+      "uid" : "9bd0ace902321a9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654453438436,
+        "stop" : 1654453443327,
+        "duration" : 4891
+      }
+    }, {
+      "uid" : "a5013d0b86005dc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654452117349,
+        "stop" : 1654452122441,
+        "duration" : 5092
+      }
+    }, {
+      "uid" : "ff9e6b1d59df2151",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654451540200,
+        "stop" : 1654451544513,
+        "duration" : 4313
+      }
+    }, {
+      "uid" : "8d40286a102c87e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654451125351,
+        "stop" : 1654451131122,
+        "duration" : 5771
+      }
+    }, {
+      "uid" : "2aa12bbeea99b03a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654449328510,
+        "stop" : 1654449334600,
+        "duration" : 6090
+      }
+    }, {
+      "uid" : "b45478a71e5bd9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654449153752,
+        "stop" : 1654449159974,
+        "duration" : 6222
+      }
+    }, {
+      "uid" : "2faaca9b85729dad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654446095134,
+        "stop" : 1654446099817,
+        "duration" : 4683
+      }
+    }, {
+      "uid" : "9da30547d58b8d36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654444477499,
+        "stop" : 1654444483204,
+        "duration" : 5705
+      }
+    }, {
+      "uid" : "dcd1548dc4c90c1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654438738898,
+        "stop" : 1654438747544,
+        "duration" : 8646
+      }
+    }, {
+      "uid" : "1974cedc17dc97c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654287351012,
+        "stop" : 1654287356278,
+        "duration" : 5266
+      }
+    }, {
+      "uid" : "8a495b475fd88695",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654287051896,
+        "stop" : 1654287056918,
+        "duration" : 5022
+      }
+    }, {
+      "uid" : "a4bbfaa6b7b49f2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654286976979,
+        "stop" : 1654286982901,
+        "duration" : 5922
+      }
+    }, {
+      "uid" : "57f93f67f18d6746",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654286829967,
+        "stop" : 1654286834746,
+        "duration" : 4779
+      }
+    }, {
+      "uid" : "3c8d2e1d3e1b0617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654268231701,
+        "stop" : 1654268241504,
+        "duration" : 9803
+      }
+    }, {
+      "uid" : "844b8a1123202bca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654267055437,
+        "stop" : 1654267061186,
+        "duration" : 5749
+      }
+    }, {
+      "uid" : "d137fe8bf6bd0d48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654265800823,
+        "stop" : 1654265808449,
+        "duration" : 7626
+      }
+    }, {
+      "uid" : "bdf2350e4a47a5ee",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654265775376,
+        "stop" : 1654265782059,
+        "duration" : 6683
+      }
+    }, {
+      "uid" : "5216d6000bb5eb02",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654265031340,
+        "stop" : 1654265037154,
+        "duration" : 5814
+      }
+    }, {
+      "uid" : "e48b23683c3451a8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654264807693,
+        "stop" : 1654264812425,
+        "duration" : 4732
+      }
+    }, {
+      "uid" : "afa1dd3b29b93bb6",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654264710159,
+        "stop" : 1654264714607,
+        "duration" : 4448
+      }
+    }, {
+      "uid" : "db1d0078e4ee3a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654264499324,
+        "stop" : 1654264505358,
+        "duration" : 6034
+      }
+    }, {
+      "uid" : "8d06ef9a8812fc12",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654264447349,
+        "stop" : 1654264458094,
+        "duration" : 10745
+      }
+    }, {
+      "uid" : "a3d85410b854b6b3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654264405423,
+        "stop" : 1654264410125,
+        "duration" : 4702
+      }
+    }, {
+      "uid" : "f7431cbf14c1ed17",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654264259675,
+        "stop" : 1654264264163,
+        "duration" : 4488
+      }
+    }, {
+      "uid" : "1195b2525cb70fa4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654264173667,
+        "stop" : 1654264181779,
+        "duration" : 8112
+      }
+    }, {
+      "uid" : "cd6498cc6be8cc0a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654263739718,
+        "stop" : 1654263744301,
+        "duration" : 4583
+      }
+    }, {
+      "uid" : "98e972aa0cf63186",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654263596693,
+        "stop" : 1654263600677,
+        "duration" : 3984
+      }
+    }, {
+      "uid" : "2cf81a638b42d2ea",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654263517715,
+        "stop" : 1654263522184,
+        "duration" : 4469
+      }
+    }, {
+      "uid" : "f4885afd813fa643",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654263143674,
+        "stop" : 1654263147954,
+        "duration" : 4280
+      }
+    }, {
+      "uid" : "6ef47e6d1fd76bbd",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654262894761,
+        "stop" : 1654262899080,
+        "duration" : 4319
+      }
+    }, {
+      "uid" : "442184dfe49f1be6",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654262505208,
+        "stop" : 1654262509700,
+        "duration" : 4492
+      }
+    }, {
+      "uid" : "ddcab3b9166e8f41",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654262392312,
+        "stop" : 1654262396615,
+        "duration" : 4303
+      }
+    }, {
+      "uid" : "366884fe49275e1d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654262244787,
+        "stop" : 1654262249030,
+        "duration" : 4243
+      }
+    }, {
+      "uid" : "eba6e1a0f421a69d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654261022418,
+        "stop" : 1654261026714,
+        "duration" : 4296
+      }
+    }, {
+      "uid" : "8156bd3529ee0aa5",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654260466966,
+        "stop" : 1654260471354,
+        "duration" : 4388
+      }
+    }, {
+      "uid" : "87c85b65a176bb45",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654260423260,
+        "stop" : 1654260427284,
+        "duration" : 4024
+      }
+    }, {
+      "uid" : "6bd1538a3a8d9673",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654260187552,
+        "stop" : 1654260191883,
+        "duration" : 4331
+      }
+    }, {
+      "uid" : "d35fa9c60f59c8f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654260074673,
+        "stop" : 1654260079429,
+        "duration" : 4756
+      }
+    }, {
+      "uid" : "fb925917d5456546",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654257667446,
+        "stop" : 1654257672268,
+        "duration" : 4822
+      }
+    }, {
+      "uid" : "6d1b4e49651b44b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654257618240,
+        "stop" : 1654257622704,
+        "duration" : 4464
+      }
+    }, {
+      "uid" : "5dbbcc9266f74014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654257542187,
+        "stop" : 1654257547293,
+        "duration" : 5106
+      }
+    }, {
+      "uid" : "e3f1665093df867f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654257502838,
+        "stop" : 1654257507505,
+        "duration" : 4667
+      }
+    }, {
+      "uid" : "f9e65a0b98944a4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654257247195,
+        "stop" : 1654257251266,
+        "duration" : 4071
+      }
+    }, {
+      "uid" : "52a9e08ec1e33f89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654257082723,
+        "stop" : 1654257087596,
+        "duration" : 4873
+      }
+    }, {
+      "uid" : "44680aa63d0081d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654256110431,
+        "stop" : 1654256115055,
+        "duration" : 4624
+      }
+    }, {
+      "uid" : "e1bfd36c33b561d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654255976505,
+        "stop" : 1654255981066,
+        "duration" : 4561
+      }
+    }, {
+      "uid" : "78adcc84f279f894",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=102.0.5005.63)",
+      "time" : {
+        "start" : 1654255587411,
+        "stop" : 1654255592100,
+        "duration" : 4689
+      }
+    }, {
+      "uid" : "9e09b698caba4ccd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654255032505,
+        "stop" : 1654255038054,
+        "duration" : 5549
+      }
+    }, {
+      "uid" : "1c4c6626144cf42b",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"label:nth-child(2) .radioButton\" because element wasn't found",
+      "time" : {
+        "start" : 1654254964621,
+        "stop" : 1654254974791,
+        "duration" : 10170
+      }
+    }, {
+      "uid" : "b0218bba51b721c9",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"label:nth-child(2) .radioButton\" because element wasn't found",
+      "time" : {
+        "start" : 1654254860106,
+        "stop" : 1654254870318,
+        "duration" : 10212
+      }
+    }, {
+      "uid" : "c1dfd2d549c2dc74",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"label:nth-child(2) .radioButton\" because element wasn't found",
+      "time" : {
+        "start" : 1654254757248,
+        "stop" : 1654254767453,
+        "duration" : 10205
+      }
+    }, {
+      "uid" : "c464359c04c73f30",
+      "status" : "broken",
+      "statusDetails" : "Page.radioButton is not a function",
+      "time" : {
+        "start" : 1654254718921,
+        "stop" : 1654254719099,
+        "duration" : 178
+      }
+    }, {
+      "uid" : "ca0b7090613ea7db",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"label:nth-child(2) .radioButton\" because element wasn't found",
+      "time" : {
+        "start" : 1654254604526,
+        "stop" : 1654254614704,
+        "duration" : 10178
+      }
+    }, {
+      "uid" : "5fd04bf3c6b0bf86",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"label:nth-child(2) .radioButton\" because element wasn't found",
+      "time" : {
+        "start" : 1654254534238,
+        "stop" : 1654254544417,
+        "duration" : 10179
+      }
+    }, {
+      "uid" : "724170b0baa67d47",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"label:nth-child(2) .radioButton\" because element wasn't found",
+      "time" : {
+        "start" : 1654254330141,
+        "stop" : 1654254340321,
+        "duration" : 10180
+      }
+    }, {
+      "uid" : "55b32fbc4f45c484",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"label:nth-child(2) > input\" because element wasn't found",
+      "time" : {
+        "start" : 1654254197931,
+        "stop" : 1654254208177,
+        "duration" : 10246
+      }
+    }, {
+      "uid" : "2384e1b753a2d13",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"label:nth-child(2) > input\" because element wasn't found",
+      "time" : {
+        "start" : 1654254141606,
+        "stop" : 1654254151778,
+        "duration" : 10172
+      }
+    }, {
+      "uid" : "bb961faba5fc80b9",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"label:nth-child(2) > input\" because element wasn't found",
+      "time" : {
+        "start" : 1654254096530,
+        "stop" : 1654254106748,
+        "duration" : 10218
+      }
+    }, {
+      "uid" : "f1c160fea6ae8935",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654254009326,
+        "stop" : 1654254009333,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "f2a3170b9d09f0e5",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"label:nth-child(2) > input\" because element wasn't found",
+      "time" : {
+        "start" : 1654253920128,
+        "stop" : 1654253930424,
+        "duration" : 10296
+      }
+    }, {
+      "uid" : "aa85a662bab40edf",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"label:nth-child(2) > input\" because element wasn't found",
+      "time" : {
+        "start" : 1654253855574,
+        "stop" : 1654253865877,
+        "duration" : 10303
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1d688b4725b11f1.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

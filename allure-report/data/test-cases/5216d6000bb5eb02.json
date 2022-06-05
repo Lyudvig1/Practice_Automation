@@ -1,0 +1,112 @@
+{
+  "uid" : "5216d6000bb5eb02",
+  "name" : "Select the radio button",
+  "fullName" : "Automation Practice.Select the radio button",
+  "historyId" : "3c87de9b97cc4d90d4ce208334364b88",
+  "time" : {
+    "start" : 1654265031340,
+    "stop" : 1654265037154,
+    "duration" : 5814
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1654265031343,
+        "stop" : 1654265031502,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ffcbe43b668d22ac",
+        "name" : "Response",
+        "source" : "ffcbe43b668d22ac.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1654265031503,
+        "stop" : 1654265037151,
+        "duration" : 5648
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9ccd2c6e99aebaf",
+        "name" : "Request",
+        "source" : "b9ccd2c6e99aebaf.json",
+        "type" : "application/json",
+        "size" : 69
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select the radio button"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5216d6000bb5eb02.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

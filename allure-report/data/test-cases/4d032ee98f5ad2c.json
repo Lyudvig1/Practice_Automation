@@ -1,0 +1,94 @@
+{
+  "uid" : "4d032ee98f5ad2c",
+  "name" : "Check alert functionality",
+  "fullName" : "Automation Practice.Check alert functionality",
+  "historyId" : "216f65aeae9be8e0f0744e1fe4cae46f",
+  "time" : {
+    "start" : 1654455118698,
+    "stop" : 1654455119250,
+    "duration" : 552
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check alert functionality"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "32d1800aee31af80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654454322210,
+        "stop" : 1654454322683,
+        "duration" : 473
+      }
+    }, {
+      "uid" : "bc4b54ed3310ef95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654453639977,
+        "stop" : 1654453640568,
+        "duration" : 591
+      }
+    }, {
+      "uid" : "626dfed5106fccb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654453573499,
+        "stop" : 1654453574291,
+        "duration" : 792
+      }
+    }, {
+      "uid" : "736736e18112955d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654452781231,
+        "stop" : 1654452787697,
+        "duration" : 6466
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d032ee98f5ad2c.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

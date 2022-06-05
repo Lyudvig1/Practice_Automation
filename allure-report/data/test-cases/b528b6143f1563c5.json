@@ -1,0 +1,186 @@
+{
+  "uid" : "b528b6143f1563c5",
+  "name" : "Should scroll down to the selected item and click on it",
+  "fullName" : "Automation Practice.Should scroll down to the selected item and click on it",
+  "historyId" : "d7eb72e88a772df189b7e900a987b872",
+  "time" : {
+    "start" : 1654285669648,
+    "stop" : 1654285674102,
+    "duration" : 4454
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <a href=\"https://courses.rahulshettyacademy.com/courses\" class=\"btn btn-primary view-all-courses-btn\">...</a> is not clickable at point (674, 25). Other element would receive the click: <a href=\"learning-path\">...</a>\n                  (Session info: chrome=102.0.5005.63)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <a href=\"https://courses.rahulshettyacademy.com/courses\" class=\"btn btn-primary view-all-courses-btn\">...</a> is not clickable at point (674, 25). Other element would receive the click: <a href=\"learning-path\">...</a>\n                  (Session info: chrome=102.0.5005.63)\n                    at getErrorFromResponseBody (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <a href=\"https://courses.rahulshettyacademy.com/courses\" class=\"btn btn-primary view-all-courses-btn\">...</a> is not clickable at point (674, 25). Other element would receive the click: <a href=\"learning-path\">...</a>\n                  (Session info: chrome=102.0.5005.63)",
+    "statusTrace" : "element click intercepted: element click intercepted: Element <a href=\"https://courses.rahulshettyacademy.com/courses\" class=\"btn btn-primary view-all-courses-btn\">...</a> is not clickable at point (674, 25). Other element would receive the click: <a href=\"learning-path\">...</a>\n                  (Session info: chrome=102.0.5005.63)\n                    at getErrorFromResponseBody (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654285669649,
+        "stop" : 1654285669667,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2061c0ff396edfae",
+        "name" : "Request",
+        "source" : "2061c0ff396edfae.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "8b702e7d6463085a",
+        "name" : "Response",
+        "source" : "8b702e7d6463085a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1654285669669,
+        "stop" : 1654285669680,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d02e2f93dd280bd",
+        "name" : "Request",
+        "source" : "6d02e2f93dd280bd.json",
+        "type" : "application/json",
+        "size" : 302
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654285669680,
+        "stop" : 1654285669695,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7d62472ff3d1707",
+        "name" : "Request",
+        "source" : "e7d62472ff3d1707.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "593ad7590ee06715",
+        "name" : "Response",
+        "source" : "593ad7590ee06715.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/76dbc19c-7eea-4de2-8e2d-6439fc81e623/click",
+      "time" : {
+        "start" : 1654285669698,
+        "stop" : 1654285674102,
+        "duration" : 4404
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: element click intercepted: Element <a href=\"https://courses.rahulshettyacademy.com/courses\" class=\"btn btn-primary view-all-courses-btn\">...</a> is not clickable at point (674, 25). Other element would receive the click: <a href=\"learning-path\">...</a>\n                  (Session info: chrome=102.0.5005.63)\n                    at getErrorFromResponseBody (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1654285673996,
+          "stop" : 1654285674100,
+          "duration" : 104
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aae9b70d0e40708",
+          "name" : "Screenshot",
+          "source" : "aae9b70d0e40708.png",
+          "type" : "image/png",
+          "size" : 85438
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should scroll down to the selected item and click on it"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b528b6143f1563c5.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

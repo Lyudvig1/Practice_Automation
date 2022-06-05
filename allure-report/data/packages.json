@@ -1,0 +1,387 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Automation Practoce",
+    "children" : [ {
+      "name" : "Select the radio button",
+      "uid" : "93ceb9871d81781",
+      "parentUid" : "98554e91671b4aab702052853ee20d59",
+      "status" : "broken",
+      "time" : {
+        "start" : 1654253785552,
+        "stop" : 1654253795869,
+        "duration" : 10317
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    } ],
+    "uid" : "98554e91671b4aab702052853ee20d59"
+  }, {
+    "name" : "Automation Practice",
+    "children" : [ {
+      "name" : "Select an item from the static dropdown",
+      "uid" : "794813a6ea6e428d",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654268242524,
+        "stop" : 1654268242942,
+        "duration" : 418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 36,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Should scroll up to page footer section",
+      "uid" : "a193a1c6c292525a",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654282138103,
+        "stop" : 1654282141603,
+        "duration" : 3500
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Should scroll down to the selected item and click on it",
+      "uid" : "70ceb613222f1ec3",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654287381226,
+        "stop" : 1654287381226,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Navigate to the frame section",
+      "uid" : "c5ec1dd3aa1de0f5",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1654444516861,
+        "stop" : 1654444516861,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Navigate to the frame section",
+      "uid" : "cbbfd5e792b45e3c",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654444550327,
+        "stop" : 1654444556520,
+        "duration" : 6193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Typing text in the text field",
+      "uid" : "65264b46c0a87912",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654448356562,
+        "stop" : 1654448361581,
+        "duration" : 5019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 18,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "\"before all\" hook for Automation Practice",
+      "uid" : "4cf366fef775fafa",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "broken",
+      "time" : {
+        "start" : 1654451101043,
+        "stop" : 1654451101045,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Typing text in alert field",
+      "uid" : "59c68bbf458b5669",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654451160755,
+        "stop" : 1654451161329,
+        "duration" : 574
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 24,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Select an option from the checkbox",
+      "uid" : "8c0d0a43c02acec",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455065782,
+        "stop" : 1654455065919,
+        "duration" : 137
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Typing text in the search field",
+      "uid" : "14968f61f97b6509",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455065919,
+        "stop" : 1654455066168,
+        "duration" : 249
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Select the coutntry in search dropdown",
+      "uid" : "85bee96e1389a404",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455066168,
+        "stop" : 1654455066851,
+        "duration" : 683
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 22,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Navigate to the new window",
+      "uid" : "c25a07e2e0f071e9",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455066851,
+        "stop" : 1654455107853,
+        "duration" : 41002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 32,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Should scroll down to the page footer section",
+      "uid" : "5db23d12eb4abd42",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455107854,
+        "stop" : 1654455111070,
+        "duration" : 3216
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Navigate to the new tab",
+      "uid" : "a48ec485df8d231c",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455111070,
+        "stop" : 1654455112680,
+        "duration" : 1610
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 30,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Should scroll down to the selected item and click on it",
+      "uid" : "c29d45aea6a55917",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455112680,
+        "stop" : 1654455118697,
+        "duration" : 6017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 25,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Check alert functionality",
+      "uid" : "4d032ee98f5ad2c",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455118698,
+        "stop" : 1654455119250,
+        "duration" : 552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Checked hide/show input field",
+      "uid" : "390b1bbd49c66415",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455119250,
+        "stop" : 1654455121755,
+        "duration" : 2505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 17,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Navigate to the iframe section",
+      "uid" : "ddfd76a06e31cfb1",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455121755,
+        "stop" : 1654455122000,
+        "duration" : 245
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Select the item in iframe section",
+      "uid" : "bddeca94138dc42b",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455122000,
+        "stop" : 1654455125366,
+        "duration" : 3366
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : "Select the radio button",
+      "uid" : "a1d688b4725b11f1",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455441129,
+        "stop" : 1654455446074,
+        "duration" : 4945
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 65,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    }, {
+      "name" : " Select an item from the dynamic dropdown",
+      "uid" : "64db244bb2dd508a",
+      "parentUid" : "dc8168cbd5f198a849e907e2e0b045be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654455446074,
+        "stop" : 1654455446450,
+        "duration" : 376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 18,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.63" ]
+    } ],
+    "uid" : "dc8168cbd5f198a849e907e2e0b045be"
+  } ]
+}

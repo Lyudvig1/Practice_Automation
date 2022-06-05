@@ -1,0 +1,201 @@
+{
+  "uid" : "e7a6da1c623b96a8",
+  "name" : "Typing text in alert field",
+  "fullName" : "Automation Practice.Typing text in alert field",
+  "historyId" : "78fcbfc1bf2b2d8277ba37482d1df1f9",
+  "time" : {
+    "start" : 1654429125383,
+    "stop" : 1654429126106,
+    "duration" : 723
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read properties of undefined (reading 'setValue')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'setValue')\n                    at ElementPage.typeTextInAlertField (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:108:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:68:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read properties of undefined (reading 'setValue')",
+    "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'setValue')\n                    at ElementPage.typeTextInAlertField (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:108:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:68:9)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/window/handles",
+      "time" : {
+        "start" : 1654429125383,
+        "stop" : 1654429125392,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c6ecc2e73b751623",
+        "name" : "Response",
+        "source" : "c6ecc2e73b751623.json",
+        "type" : "application/json",
+        "size" : 96
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window",
+      "time" : {
+        "start" : 1654429125392,
+        "stop" : 1654429125425,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "89d0af5e9a8f6bfc",
+        "name" : "Request",
+        "source" : "89d0af5e9a8f6bfc.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1654429125426,
+        "stop" : 1654429125901,
+        "duration" : 475
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2cafeb05f77cd1e",
+        "name" : "Response",
+        "source" : "b2cafeb05f77cd1e.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1654429125902,
+        "stop" : 1654429125914,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "102e7e7bbf5c65a6",
+        "name" : "Response",
+        "source" : "102e7e7bbf5c65a6.json",
+        "type" : "application/json",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1654429125916,
+        "stop" : 1654429126106,
+        "duration" : 190
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'setValue')\n                    at ElementPage.typeTextInAlertField (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:108:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:68:9)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1654429125917,
+          "stop" : 1654429126104,
+          "duration" : 187
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bb9d77da7a7a2118",
+          "name" : "Request",
+          "source" : "bb9d77da7a7a2118.json",
+          "type" : "application/json",
+          "size" : 49
+        }, {
+          "uid" : "c1c0c45ff14cb8b0",
+          "name" : "Screenshot",
+          "source" : "c1c0c45ff14cb8b0.png",
+          "type" : "image/png",
+          "size" : 51054
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Typing text in alert field"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7a6da1c623b96a8.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

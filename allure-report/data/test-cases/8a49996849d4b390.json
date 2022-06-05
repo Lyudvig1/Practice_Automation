@@ -1,0 +1,181 @@
+{
+  "uid" : "8a49996849d4b390",
+  "name" : "Typing text in the search field",
+  "fullName" : "Automation Practice.Typing text in the search field",
+  "historyId" : "71f056d358bcb32a742cf508ac0fb415",
+  "time" : {
+    "start" : 1654454292016,
+    "stop" : 1654454292269,
+    "duration" : 253
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654454292017,
+        "stop" : 1654454292064,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d7c665dd8e40b0d",
+        "name" : "Request",
+        "source" : "8d7c665dd8e40b0d.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "952005cc91fa7f7c",
+        "name" : "Response",
+        "source" : "952005cc91fa7f7c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/5130ca73-5a13-4a83-988a-591d6252e87a/clear",
+      "time" : {
+        "start" : 1654454292067,
+        "stop" : 1654454292106,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/5130ca73-5a13-4a83-988a-591d6252e87a/value",
+      "time" : {
+        "start" : 1654454292116,
+        "stop" : 1654454292205,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb8ec43f7b1393ea",
+        "name" : "Request",
+        "source" : "bb8ec43f7b1393ea.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654454292206,
+        "stop" : 1654454292220,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d59c8636101aaf80",
+        "name" : "Request",
+        "source" : "d59c8636101aaf80.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "6dea2087105eee17",
+        "name" : "Response",
+        "source" : "6dea2087105eee17.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/5130ca73-5a13-4a83-988a-591d6252e87a/property/value",
+      "time" : {
+        "start" : 1654454292224,
+        "stop" : 1654454292269,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d15bca4c56d7d797",
+        "name" : "Response",
+        "source" : "d15bca4c56d7d797.json",
+        "type" : "application/json",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Typing text in the search field"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a49996849d4b390.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

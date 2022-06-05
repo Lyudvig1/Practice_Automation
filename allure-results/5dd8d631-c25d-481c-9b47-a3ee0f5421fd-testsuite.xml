@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654267150759' stop='1654267156759'>
+    <name>Automation Practice</name>
+    <title>Automation Practice</title>
+    <test-cases>
+        <test-case start='1654267150760' status='broken' stop='1654267156750'>
+            <name>Select an item from the static dropdown</name>
+            <title>Select an item from the static dropdown</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps>
+                <step start='1654267150765' status='passed' stop='1654267150926'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='6421aa28-b157-447b-a39b-93aaa99937bd-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654267150927' status='passed' stop='1654267156089'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d19736e0-8943-45f9-996d-c3e423850443-attachment.json' type='application/json' size='69'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654267156102' status='passed' stop='1654267156539'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='79f15fba-9364-4838-8179-f8ce4d1ea7de-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='e9e253a6-f055-43e9-a3e9-23ad863a0bea-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654267156554' status='broken' stop='1654267156750'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1654267156557' status='passed' stop='1654267156748'>
+                            <name>POST /session/:sessionId/execute/sync</name>
+                            <title>POST /session/:sessionId/execute/sync</title>
+                            <attachments>
+                                <attachment title='Request' source='3de81839-1c7f-41c9-842c-392e3da7ac64-attachment.json' type='application/json' size='8337'/>
+                                <attachment title='Screenshot' source='30c3c9df-aa7d-400b-9dbb-6b41702352cd-attachment.png' type='image/png' size='50923'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='5a590d81-8fdd-4902-bdab-4d48a17a9b78-attachment.json' type='application/json' size='4'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'be')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'be')
+                    at Context.&lt;anonymous> (C:\Users\Ya\Desktop\homeworkWdio\test\specs\test.js:23:53)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,185 @@
+{
+  "uid" : "c74cb832cd1cd065",
+  "name" : "Navigate to the frame section",
+  "fullName" : "Automation Practice.Navigate to the frame section",
+  "historyId" : "d5e8246548e734e398818f746ebc1c1a",
+  "time" : {
+    "start" : 1654442248043,
+    "stop" : 1654442253878,
+    "duration" : 5835
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read properties of undefined (reading 'waitForDisplayed')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'waitForDisplayed')\n                    at Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:87:45)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read properties of undefined (reading 'waitForDisplayed')",
+    "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'waitForDisplayed')\n                    at Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:87:45)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1654442248046,
+        "stop" : 1654442248203,
+        "duration" : 157
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1428d0bcb12e76ce",
+        "name" : "Response",
+        "source" : "1428d0bcb12e76ce.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1654442248204,
+        "stop" : 1654442252507,
+        "duration" : 4303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6bc84d3332f22f22",
+        "name" : "Request",
+        "source" : "6bc84d3332f22f22.json",
+        "type" : "application/json",
+        "size" : 69
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654442252519,
+        "stop" : 1654442252950,
+        "duration" : 431
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31b57b495e07dbfa",
+        "name" : "Request",
+        "source" : "31b57b495e07dbfa.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "c7e7e07429299d0f",
+        "name" : "Response",
+        "source" : "c7e7e07429299d0f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1654442252971,
+        "stop" : 1654442253049,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3bea28fa1bf9c9b4",
+        "name" : "Request",
+        "source" : "3bea28fa1bf9c9b4.json",
+        "type" : "application/json",
+        "size" : 302
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1654442253051,
+        "stop" : 1654442253876,
+        "duration" : 825
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "168038df530a0110",
+        "name" : "Screenshot",
+        "source" : "168038df530a0110.png",
+        "type" : "image/png",
+        "size" : 82599
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navigate to the frame section"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c74cb832cd1cd065.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

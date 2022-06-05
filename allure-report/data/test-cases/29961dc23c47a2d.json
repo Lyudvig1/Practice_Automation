@@ -1,0 +1,159 @@
+{
+  "uid" : "29961dc23c47a2d",
+  "name" : "Typing text in alert field",
+  "fullName" : "Automation Practice.Typing text in alert field",
+  "historyId" : "78fcbfc1bf2b2d8277ba37482d1df1f9",
+  "time" : {
+    "start" : 1654430540276,
+    "stop" : 1654430547560,
+    "duration" : 7284
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read properties of undefined (reading 'setValue')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'setValue')\n                    at ElementPage.typeInAlertField (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:109:32)\n                    at Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:68:20)\n                    at Context.executeAsync (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read properties of undefined (reading 'setValue')",
+    "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'setValue')\n                    at ElementPage.typeInAlertField (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:109:32)\n                    at Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:68:20)\n                    at Context.executeAsync (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1654430540280,
+        "stop" : 1654430540431,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ac23864bcd0ce5",
+        "name" : "Response",
+        "source" : "6ac23864bcd0ce5.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1654430540433,
+        "stop" : 1654430546867,
+        "duration" : 6434
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f8bccd87b47edb30",
+        "name" : "Request",
+        "source" : "f8bccd87b47edb30.json",
+        "type" : "application/json",
+        "size" : 69
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1654430546884,
+        "stop" : 1654430547560,
+        "duration" : 676
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'setValue')\n                    at ElementPage.typeInAlertField (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:109:32)\n                    at Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:68:20)\n                    at Context.executeAsync (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1654430546894,
+          "stop" : 1654430547558,
+          "duration" : 664
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2a751c2e869ecd7b",
+          "name" : "Request",
+          "source" : "2a751c2e869ecd7b.json",
+          "type" : "application/json",
+          "size" : 49
+        }, {
+          "uid" : "220c3fca21fe3768",
+          "name" : "Screenshot",
+          "source" : "220c3fca21fe3768.png",
+          "type" : "image/png",
+          "size" : 50969
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Typing text in alert field"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29961dc23c47a2d.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

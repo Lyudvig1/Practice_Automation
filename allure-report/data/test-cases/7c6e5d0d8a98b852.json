@@ -1,0 +1,341 @@
+{
+  "uid" : "7c6e5d0d8a98b852",
+  "name" : "Select an item from the static dropdown",
+  "fullName" : "Automation Practice.Select an item from the static dropdown",
+  "historyId" : "33e2c819007afcd7c0d930eb96ca4aa9",
+  "time" : {
+    "start" : 1654260191884,
+    "stop" : 1654260192580,
+    "duration" : 696
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read properties of undefined (reading 'to')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'to')\n                    at Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:17:56)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read properties of undefined (reading 'to')",
+    "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'to')\n                    at Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:17:56)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654260191887,
+        "stop" : 1654260192101,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "986bacb764c78e2e",
+        "name" : "Request",
+        "source" : "986bacb764c78e2e.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "1201617e9c55e084",
+        "name" : "Response",
+        "source" : "1201617e9c55e084.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1654260192114,
+        "stop" : 1654260192135,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8fb287a210d7aa",
+        "name" : "Request",
+        "source" : "c8fb287a210d7aa.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "78c183cad7b14ac6",
+        "name" : "Response",
+        "source" : "78c183cad7b14ac6.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654260192140,
+        "stop" : 1654260192153,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5979fb6050ce9984",
+        "name" : "Request",
+        "source" : "5979fb6050ce9984.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "47bf4e179536796e",
+        "name" : "Response",
+        "source" : "47bf4e179536796e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1654260192159,
+        "stop" : 1654260192178,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a02ac23129afc577",
+        "name" : "Request",
+        "source" : "a02ac23129afc577.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "abd380e30573e9ba",
+        "name" : "Response",
+        "source" : "abd380e30573e9ba.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654260192179,
+        "stop" : 1654260192193,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e9895a81d129373",
+        "name" : "Request",
+        "source" : "1e9895a81d129373.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "9b6e818e97da7203",
+        "name" : "Response",
+        "source" : "9b6e818e97da7203.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/470a4b9f-75cb-4baf-a156-9c3cb10665a0/click",
+      "time" : {
+        "start" : 1654260192197,
+        "stop" : 1654260192236,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654260192236,
+        "stop" : 1654260192251,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef48ae7da8dc3769",
+        "name" : "Request",
+        "source" : "ef48ae7da8dc3769.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "307681569a5ae872",
+        "name" : "Response",
+        "source" : "307681569a5ae872.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1654260192256,
+        "stop" : 1654260192277,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4126e0ddc320171",
+        "name" : "Request",
+        "source" : "4126e0ddc320171.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "e48d68e9507ba41b",
+        "name" : "Response",
+        "source" : "e48d68e9507ba41b.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654260192278,
+        "stop" : 1654260192335,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d97a132eeb3827d6",
+        "name" : "Request",
+        "source" : "d97a132eeb3827d6.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "8ebceee7f599f6c6",
+        "name" : "Response",
+        "source" : "8ebceee7f599f6c6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/470a4b9f-75cb-4baf-a156-9c3cb10665a0/click",
+      "time" : {
+        "start" : 1654260192343,
+        "stop" : 1654260192362,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1654260192363,
+        "stop" : 1654260192579,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "169948391fbe1846",
+        "name" : "Screenshot",
+        "source" : "169948391fbe1846.png",
+        "type" : "image/png",
+        "size" : 51184
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 17,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 11
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select an item from the static dropdown"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c6e5d0d8a98b852.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "e7a24d08d02e293855453454340fed77",
+    "name" : "Automation Practice",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 2,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 21
+    }
+  }, {
+    "uid" : "8616b06b16f42317c12038b74c15b674",
+    "name" : "Automation Practoce",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

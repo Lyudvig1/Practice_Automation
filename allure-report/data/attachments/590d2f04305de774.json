@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "div.top-right.clearfix > ul > li:nth-child(2) > a > span"
+}

@@ -1,0 +1,330 @@
+{
+  "uid" : "c25a07e2e0f071e9",
+  "name" : "Navigate to the new window",
+  "fullName" : "Automation Practice.Navigate to the new window",
+  "historyId" : "a1e34cfab05f6e6fb54686db52f22a1c",
+  "time" : {
+    "start" : 1654455066851,
+    "stop" : 1654455107853,
+    "duration" : 41002
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 32,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navigate to the new window"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "23453e7fc5943c42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654454292954,
+        "stop" : 1654454311725,
+        "duration" : 18771
+      }
+    }, {
+      "uid" : "c172fe0e3cb3a261",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654453611505,
+        "stop" : 1654453629431,
+        "duration" : 17926
+      }
+    }, {
+      "uid" : "64f46f266b5d1b8c",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Automation Practice Navigate to the new window\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js)",
+      "time" : {
+        "start" : 1654453444955,
+        "stop" : 1654453504962,
+        "duration" : 60007
+      }
+    }, {
+      "uid" : "d5ceaac8d9a6a4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654452122442,
+        "stop" : 1654452141164,
+        "duration" : 18722
+      }
+    }, {
+      "uid" : "db924342adbd7cfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654451132648,
+        "stop" : 1654451150203,
+        "duration" : 17555
+      }
+    }, {
+      "uid" : "ad5081f3a5478be6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654449335981,
+        "stop" : 1654449350590,
+        "duration" : 14609
+      }
+    }, {
+      "uid" : "e8ae0ab9a9bf90e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654449161525,
+        "stop" : 1654449175399,
+        "duration" : 13874
+      }
+    }, {
+      "uid" : "d23c06d22046ee99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654446100574,
+        "stop" : 1654446134240,
+        "duration" : 33666
+      }
+    }, {
+      "uid" : "973654eb357fd148",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654444484539,
+        "stop" : 1654444503200,
+        "duration" : 18661
+      }
+    }, {
+      "uid" : "95d7e72fcaaa970b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654438748955,
+        "stop" : 1654438765526,
+        "duration" : 16571
+      }
+    }, {
+      "uid" : "19d97304abbb4c21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654287356988,
+        "stop" : 1654287375137,
+        "duration" : 18149
+      }
+    }, {
+      "uid" : "7d6d1618cdbb10d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654287057748,
+        "stop" : 1654287079600,
+        "duration" : 21852
+      }
+    }, {
+      "uid" : "bf16ff4651d30004",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654286983618,
+        "stop" : 1654286997068,
+        "duration" : 13450
+      }
+    }, {
+      "uid" : "6614dc28b649b614",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654286835513,
+        "stop" : 1654286853726,
+        "duration" : 18213
+      }
+    }, {
+      "uid" : "f2d7051e94bdba8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654282110876,
+        "stop" : 1654282138099,
+        "duration" : 27223
+      }
+    }, {
+      "uid" : "e2caba0072fd6e7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654282017744,
+        "stop" : 1654282044791,
+        "duration" : 27047
+      }
+    }, {
+      "uid" : "530215c250278694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654281943075,
+        "stop" : 1654281965173,
+        "duration" : 22098
+      }
+    }, {
+      "uid" : "d88748d07f52b9d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654281171772,
+        "stop" : 1654281197451,
+        "duration" : 25679
+      }
+    }, {
+      "uid" : "a0989874aeecd737",
+      "status" : "broken",
+      "statusDetails" : "Cannot read properties of undefined (reading 'click')",
+      "time" : {
+        "start" : 1654281053834,
+        "stop" : 1654281080434,
+        "duration" : 26600
+      }
+    }, {
+      "uid" : "774f42bfaba62fa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654280059727,
+        "stop" : 1654280085929,
+        "duration" : 26202
+      }
+    }, {
+      "uid" : "a3fe217e5d2a5819",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654279890036,
+        "stop" : 1654279915931,
+        "duration" : 25895
+      }
+    }, {
+      "uid" : "ce15833993e3496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654278155325,
+        "stop" : 1654278180753,
+        "duration" : 25428
+      }
+    }, {
+      "uid" : "e0e9d722f310c776",
+      "status" : "broken",
+      "statusDetails" : "(intermediate value).click is not a function",
+      "time" : {
+        "start" : 1654277802099,
+        "stop" : 1654277807655,
+        "duration" : 5556
+      }
+    }, {
+      "uid" : "2cc0c2cbeab28367",
+      "status" : "broken",
+      "statusDetails" : "this.linkNewWindow.click is not a function",
+      "time" : {
+        "start" : 1654277700970,
+        "stop" : 1654277705798,
+        "duration" : 4828
+      }
+    }, {
+      "uid" : "699d9699116b9892",
+      "status" : "broken",
+      "statusDetails" : "(intermediate value).click is not a function",
+      "time" : {
+        "start" : 1654277116274,
+        "stop" : 1654277122531,
+        "duration" : 6257
+      }
+    }, {
+      "uid" : "69b34d6d12c9a044",
+      "status" : "broken",
+      "statusDetails" : "this.linkNewWindow.click is not a function",
+      "time" : {
+        "start" : 1654276581491,
+        "stop" : 1654276588631,
+        "duration" : 7140
+      }
+    }, {
+      "uid" : "9c985d74384552d",
+      "status" : "broken",
+      "statusDetails" : "this.linkNewWindow.click is not a function",
+      "time" : {
+        "start" : 1654276405848,
+        "stop" : 1654276412962,
+        "duration" : 7114
+      }
+    }, {
+      "uid" : "b929331f528b9c46",
+      "status" : "broken",
+      "statusDetails" : "this.linkNewWindow.click is not a function",
+      "time" : {
+        "start" : 1654276261746,
+        "stop" : 1654276269799,
+        "duration" : 8053
+      }
+    }, {
+      "uid" : "ca6efcfcfbfa532c",
+      "status" : "broken",
+      "statusDetails" : "(intermediate value).click is not a function",
+      "time" : {
+        "start" : 1654276189984,
+        "stop" : 1654276197077,
+        "duration" : 7093
+      }
+    }, {
+      "uid" : "e7bd53c25e26065c",
+      "status" : "broken",
+      "statusDetails" : "this.linkNewWindow.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1654275973338,
+        "stop" : 1654275978934,
+        "duration" : 5596
+      }
+    }, {
+      "uid" : "c0e2dd91ea876a3f",
+      "status" : "broken",
+      "statusDetails" : "this.linkNewWindow.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1654275846116,
+        "stop" : 1654275851371,
+        "duration" : 5255
+      }
+    }, {
+      "uid" : "10bb8a9fa49eab08",
+      "status" : "broken",
+      "statusDetails" : "(intermediate value).waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1654275745141,
+        "stop" : 1654275751841,
+        "duration" : 6700
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c25a07e2e0f071e9.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

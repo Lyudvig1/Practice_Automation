@@ -1,0 +1,213 @@
+{
+  "uid" : "78adcc84f279f894",
+  "name" : "Select the radio button",
+  "fullName" : "Automation Practice.Select the radio button",
+  "historyId" : "3c87de9b97cc4d90d4ce208334364b88",
+  "time" : {
+    "start" : 1654255587411,
+    "stop" : 1654255592100,
+    "duration" : 4689
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=102.0.5005.63)",
+  "statusTrace" : "invalid selector: invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=102.0.5005.63)\n                    at getErrorFromResponseBody (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Browser.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Browser.$ (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:91:17)\n                    at async Browser.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async ElementPage.radioBtnAction (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:8:13)\n                    at async Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:11:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=102.0.5005.63)",
+    "statusTrace" : "invalid selector: invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=102.0.5005.63)\n                    at getErrorFromResponseBody (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Browser.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Browser.$ (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:91:17)\n                    at async Browser.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async ElementPage.radioBtnAction (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:8:13)\n                    at async Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:11:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1654255587413,
+        "stop" : 1654255587557,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "142a6052338980ca",
+        "name" : "Response",
+        "source" : "142a6052338980ca.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1654255587558,
+        "stop" : 1654255591648,
+        "duration" : 4090
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "342ff96e6e92032e",
+        "name" : "Request",
+        "source" : "342ff96e6e92032e.json",
+        "type" : "application/json",
+        "size" : 69
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654255591650,
+        "stop" : 1654255591855,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "76277600d2070a53",
+        "name" : "Request",
+        "source" : "76277600d2070a53.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "e0c97a0123f6aa59",
+        "name" : "Response",
+        "source" : "e0c97a0123f6aa59.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1654255591861,
+        "stop" : 1654255591879,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "190c624e72d312f8",
+        "name" : "Request",
+        "source" : "190c624e72d312f8.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "46ae8ab710ab6ed8",
+        "name" : "Response",
+        "source" : "46ae8ab710ab6ed8.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654255591883,
+        "stop" : 1654255592100,
+        "duration" : 217
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid selector: invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=102.0.5005.63)\n                    at getErrorFromResponseBody (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Browser.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Browser.$ (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:91:17)\n                    at async Browser.wrapCommandFn (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async ElementPage.radioBtnAction (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:8:13)\n                    at async Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:11:9)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1654255591943,
+          "stop" : 1654255592099,
+          "duration" : 156
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1b32dddc59bd5314",
+          "name" : "Screenshot",
+          "source" : "1b32dddc59bd5314.png",
+          "type" : "image/png",
+          "size" : 50049
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "a1a69c8492d07468",
+        "name" : "Request",
+        "source" : "a1a69c8492d07468.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select the radio button"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78adcc84f279f894.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

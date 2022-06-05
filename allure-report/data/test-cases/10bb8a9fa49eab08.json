@@ -1,0 +1,137 @@
+{
+  "uid" : "10bb8a9fa49eab08",
+  "name" : "Navigate to the new window",
+  "fullName" : "Automation Practice.Navigate to the new window",
+  "historyId" : "a1e34cfab05f6e6fb54686db52f22a1c",
+  "time" : {
+    "start" : 1654275745141,
+    "stop" : 1654275751841,
+    "duration" : 6700
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "(intermediate value).waitForDisplayed is not a function",
+  "statusTrace" : "TypeError: (intermediate value).waitForDisplayed is not a function\n                    at ElementPage.clickOnNewWindow (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:58:42)\n                    at async Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:35:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "(intermediate value).waitForDisplayed is not a function",
+    "statusTrace" : "TypeError: (intermediate value).waitForDisplayed is not a function\n                    at ElementPage.clickOnNewWindow (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:58:42)\n                    at async Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:35:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1654275745146,
+        "stop" : 1654275745303,
+        "duration" : 157
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f177605e4a010adb",
+        "name" : "Response",
+        "source" : "f177605e4a010adb.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1654275745304,
+        "stop" : 1654275751301,
+        "duration" : 5997
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6e383a59a76fcbea",
+        "name" : "Request",
+        "source" : "6e383a59a76fcbea.json",
+        "type" : "application/json",
+        "size" : 69
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1654275751308,
+        "stop" : 1654275751838,
+        "duration" : 530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a9230609ccf17373",
+        "name" : "Screenshot",
+        "source" : "a9230609ccf17373.png",
+        "type" : "image/png",
+        "size" : 51091
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navigate to the new window"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10bb8a9fa49eab08.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

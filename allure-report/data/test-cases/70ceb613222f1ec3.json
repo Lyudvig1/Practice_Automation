@@ -1,0 +1,79 @@
+{
+  "uid" : "70ceb613222f1ec3",
+  "name" : "Should scroll down to the selected item and click on it",
+  "fullName" : "Automation Practice.Should scroll down to the selected item and click on it",
+  "historyId" : "966925dd7a020be2223a8f7582f13457",
+  "time" : {
+    "start" : 1654287381226,
+    "stop" : 1654287381226,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should scroll down to the selected item and click on it"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c5e9d6129d6ecf6d",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1654287083033,
+        "stop" : 1654287083033,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "35697d90da85246",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1654287010638,
+        "stop" : 1654287010638,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8eee1d097c50004c",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1654286857006,
+        "stop" : 1654286857006,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70ceb613222f1ec3.json",
+  "parameterValues" : [ ]
+}

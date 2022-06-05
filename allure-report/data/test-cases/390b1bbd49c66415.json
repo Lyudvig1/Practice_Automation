@@ -1,0 +1,206 @@
+{
+  "uid" : "390b1bbd49c66415",
+  "name" : "Checked hide/show input field",
+  "fullName" : "Automation Practice.Checked hide/show input field",
+  "historyId" : "a8632751004bf5d624b06bdbb48a2476",
+  "time" : {
+    "start" : 1654455119250,
+    "stop" : 1654455121755,
+    "duration" : 2505
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checked hide/show input field"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "44b1cfc908497bf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654454322683,
+        "stop" : 1654454325284,
+        "duration" : 2601
+      }
+    }, {
+      "uid" : "22d5f0a557272dde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654453640568,
+        "stop" : 1654453643202,
+        "duration" : 2634
+      }
+    }, {
+      "uid" : "30939ffdbd68f005",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654453574291,
+        "stop" : 1654453576965,
+        "duration" : 2674
+      }
+    }, {
+      "uid" : "4d38e3026925b7f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654451161330,
+        "stop" : 1654451163856,
+        "duration" : 2526
+      }
+    }, {
+      "uid" : "9d2b840cc372f9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654449362698,
+        "stop" : 1654449365320,
+        "duration" : 2622
+      }
+    }, {
+      "uid" : "fa88841b0a099701",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654449186585,
+        "stop" : 1654449189186,
+        "duration" : 2601
+      }
+    }, {
+      "uid" : "23427d09904b9e0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654446145714,
+        "stop" : 1654446148275,
+        "duration" : 2561
+      }
+    }, {
+      "uid" : "9aae58b0f58af3fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654444514296,
+        "stop" : 1654444516860,
+        "duration" : 2564
+      }
+    }, {
+      "uid" : "5c7248c8a40aba39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654439791222,
+        "stop" : 1654439814553,
+        "duration" : 23331
+      }
+    }, {
+      "uid" : "222a9935702ca96a",
+      "status" : "broken",
+      "statusDetails" : "element (\"#displayed-text\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1654439583455,
+        "stop" : 1654439600617,
+        "duration" : 17162
+      }
+    }, {
+      "uid" : "b8bb7c2ad6ab6e1b",
+      "status" : "broken",
+      "statusDetails" : "element (\"#displayed-text\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1654439499460,
+        "stop" : 1654439516036,
+        "duration" : 16576
+      }
+    }, {
+      "uid" : "d508edd4c2a47ac4",
+      "status" : "broken",
+      "statusDetails" : "element (\"#displayed-text\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1654439361032,
+        "stop" : 1654439380545,
+        "duration" : 19513
+      }
+    }, {
+      "uid" : "604242489d8ceba0",
+      "status" : "failed",
+      "statusDetails" : "expected '' to equal 'PC'      \n                      actual expected\n                      \n                      'PC'\n                      ",
+      "time" : {
+        "start" : 1654439250710,
+        "stop" : 1654439262059,
+        "duration" : 11349
+      }
+    }, {
+      "uid" : "806c6c7e787522b1",
+      "status" : "failed",
+      "statusDetails" : "expected '' to equal 'PC'      \n                      actual expected\n                      \n                      'PC'\n                      ",
+      "time" : {
+        "start" : 1654439104253,
+        "stop" : 1654439116175,
+        "duration" : 11922
+      }
+    }, {
+      "uid" : "7d0e55c75e7eef40",
+      "status" : "failed",
+      "statusDetails" : "expected '' to equal 'PC'      \n                      actual expected\n                      \n                      'PC'\n                      ",
+      "time" : {
+        "start" : 1654438987485,
+        "stop" : 1654439000487,
+        "duration" : 13002
+      }
+    }, {
+      "uid" : "6fb27c8c85f92bff",
+      "status" : "failed",
+      "statusDetails" : "expected '' to equal 'PC'      \n                      actual expected\n                      \n                      'PC'\n                      ",
+      "time" : {
+        "start" : 1654438901777,
+        "stop" : 1654438913457,
+        "duration" : 11680
+      }
+    }, {
+      "uid" : "eb4a6d2b9c86c35b",
+      "status" : "failed",
+      "statusDetails" : "expected '' to equal 'PC'      \n                      actual expected\n                      \n                      'PC'\n                      ",
+      "time" : {
+        "start" : 1654438779291,
+        "stop" : 1654438780309,
+        "duration" : 1018
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "390b1bbd49c66415.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

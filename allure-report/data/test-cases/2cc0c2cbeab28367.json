@@ -1,0 +1,137 @@
+{
+  "uid" : "2cc0c2cbeab28367",
+  "name" : "Navigate to the new window",
+  "fullName" : "Automation Practice.Navigate to the new window",
+  "historyId" : "a1e34cfab05f6e6fb54686db52f22a1c",
+  "time" : {
+    "start" : 1654277700970,
+    "stop" : 1654277705798,
+    "duration" : 4828
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.linkNewWindow.click is not a function",
+  "statusTrace" : "TypeError: this.linkNewWindow.click is not a function\n                    at ElementPage.clickOnNewWindow (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:57:34)\n                    at Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:35:20)\n                    at Context.executeAsync (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.linkNewWindow.click is not a function",
+    "statusTrace" : "TypeError: this.linkNewWindow.click is not a function\n                    at ElementPage.clickOnNewWindow (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:57:34)\n                    at Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:35:20)\n                    at Context.executeAsync (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1654277700975,
+        "stop" : 1654277701122,
+        "duration" : 147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c6b1e2d0615bf18",
+        "name" : "Response",
+        "source" : "2c6b1e2d0615bf18.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1654277701123,
+        "stop" : 1654277705243,
+        "duration" : 4120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ba8f1853d18d345",
+        "name" : "Request",
+        "source" : "2ba8f1853d18d345.json",
+        "type" : "application/json",
+        "size" : 69
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1654277705246,
+        "stop" : 1654277705795,
+        "duration" : 549
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "548adaa049f2ea1c",
+        "name" : "Screenshot",
+        "source" : "548adaa049f2ea1c.png",
+        "type" : "image/png",
+        "size" : 50815
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navigate to the new window"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2cc0c2cbeab28367.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

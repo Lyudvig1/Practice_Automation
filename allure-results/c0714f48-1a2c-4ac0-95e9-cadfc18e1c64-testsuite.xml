@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654442697961' stop='1654442704116'>
+    <name>Automation Practice</name>
+    <title>Automation Practice</title>
+    <test-cases>
+        <test-case start='1654442697962' status='failed' stop='1654442704113'>
+            <name>Navigate to the frame section</name>
+            <title>Navigate to the frame section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps>
+                <step start='1654442697966' status='passed' stop='1654442698123'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='547ecc5e-9d8a-4895-9659-3e7468d1e828-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654442698124' status='passed' stop='1654442702735'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='04b7daf2-53b0-45c5-a6c8-93eb1b6833c2-attachment.json' type='application/json' size='69'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654442702755' status='passed' stop='1654442703118'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c8ea1551-324e-48d4-9711-66fc952a1b9f-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='716e08d4-f724-4fee-811f-a259435332da-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654442703136' status='passed' stop='1654442703154'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='0cbcb3c9-8985-4666-a66f-5d35f70ce1c6-attachment.json' type='application/json' size='302'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654442703156' status='passed' stop='1654442704111'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f53411e7-7cb0-4e15-80bd-a1d65a9e1e35-attachment.png' type='image/png' size='82787'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Malformed type for "id" parameter of command switchToFrame
+                Expected: (number|object|null)
+                Actual: string
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame
+                </message>
+                <stack-trace>Error: Malformed type for "id" parameter of command switchToFrame
+                Expected: (number|object|null)
+                Actual: string
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame
+                
+                    at Browser.protocolCommand (C:\Users\Ya\Desktop\homeworkWdio\node_modules\webdriver\build\command.js:53:23)
+                    at Browser.wrapCommandFn (C:\Users\Ya\Desktop\homeworkWdio\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async ElementPage.switchToIframe (C:\Users\Ya\Desktop\homeworkWdio\test\pages\elements.js:152:16)
+                    at async Context.&lt;anonymous> (C:\Users\Ya\Desktop\homeworkWdio\test\specs\test.js:87:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

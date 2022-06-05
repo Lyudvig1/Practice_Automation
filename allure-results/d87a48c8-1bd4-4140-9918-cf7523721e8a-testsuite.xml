@@ -1,0 +1,135 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654263517714' stop='1654263522747'>
+    <name>Automation Practice</name>
+    <title>Automation Practice</title>
+    <test-cases>
+        <test-case start='1654263517715' status='pending' stop='1654263522184'>
+            <name>Select the radio button</name>
+            <title>Select the radio button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps>
+                <step start='1654263517716' status='passed' stop='1654263517859'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='9f92550d-33c4-4514-9c3c-212152624fa2-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654263517860' status='passed' stop='1654263522182'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e8e6ade4-e4f5-4b3c-86b3-c6790b527070-attachment.json' type='application/json' size='69'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1654263522184' status='broken' stop='1654263522746'>
+            <name>Select an item from the static dropdown</name>
+            <title>Select an item from the static dropdown</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps>
+                <step start='1654263522188' status='passed' stop='1654263522403'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dd81a434-d414-4ba5-8ee0-ef672943ebfd-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='2ed3685b-16eb-41db-a09c-c00c01ddc6af-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654263522409' status='passed' stop='1654263522427'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='29ac57ec-2b21-40a4-9d7e-30030ef654dd-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='b66095eb-04f1-4d8c-9833-b99e73c30f01-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654263522433' status='passed' stop='1654263522445'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d58a20d5-452d-495e-a681-6a286a97ba11-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='1dc0a64b-8a2b-43e7-8a6a-74599169a67b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654263522450' status='passed' stop='1654263522462'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='ac08dc3c-a331-4a8e-8e31-2ae2db1d063b-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='df088f5b-04a6-4023-bbc9-75632df35eff-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654263522463' status='passed' stop='1654263522475'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c98862a4-598e-4537-92d5-e03ce5d59ce2-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='48d40e1e-7eae-4dd0-8b68-b52e33d91995-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654263522478' status='passed' stop='1654263522508'>
+                    <name>POST /session/:sessionId/element/7770d4db-18d6-444e-a7a0-a78597e3783a/click</name>
+                    <title>POST /session/:sessionId/element/7770d4db-18d6-444e-a7a0-a78597e3783a/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654263522508' status='passed' stop='1654263522527'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='35ae870b-0e2c-4272-aee1-58940f34ec03-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='a13b83e2-e15c-42f2-8e36-df63888dc948-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654263522532' status='passed' stop='1654263522589'>
+                    <name>GET /session/:sessionId/element/3303710f-da4a-4be5-bc0e-b1651c75931f/text</name>
+                    <title>GET /session/:sessionId/element/3303710f-da4a-4be5-bc0e-b1651c75931f/text</title>
+                    <attachments>
+                        <attachment title='Response' source='ca8e5b04-9406-4a72-b039-2b2a1945b576-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654263522591' status='passed' stop='1654263522745'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d7e4eea9-1556-45be-8c3e-6232fbc10b76-attachment.png' type='image/png' size='51131'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string</message>
+                <stack-trace>AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+                    at Context.&lt;anonymous> (C:\Users\Ya\Desktop\homeworkWdio\test\specs\test.js:17:53)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

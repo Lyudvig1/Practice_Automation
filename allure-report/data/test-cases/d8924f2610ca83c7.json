@@ -1,0 +1,185 @@
+{
+  "uid" : "d8924f2610ca83c7",
+  "name" : "Navigate to the frame section",
+  "fullName" : "Automation Practice.Navigate to the frame section",
+  "historyId" : "d5e8246548e734e398818f746ebc1c1a",
+  "time" : {
+    "start" : 1654442832670,
+    "stop" : 1654442842396,
+    "duration" : 9726
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "id is not defined",
+  "statusTrace" : "ReferenceError: id is not defined\n                    at ElementPage.switchToIframe (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:152:46)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:87:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "id is not defined",
+    "statusTrace" : "ReferenceError: id is not defined\n                    at ElementPage.switchToIframe (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\pages\\elements.js:152:46)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:87:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1654442832674,
+        "stop" : 1654442832826,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd14b87166e04d4c",
+        "name" : "Response",
+        "source" : "fd14b87166e04d4c.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1654442832827,
+        "stop" : 1654442840765,
+        "duration" : 7938
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8e20fdb543e6c033",
+        "name" : "Request",
+        "source" : "8e20fdb543e6c033.json",
+        "type" : "application/json",
+        "size" : 69
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654442840773,
+        "stop" : 1654442841154,
+        "duration" : 381
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5dcd1c7b65ea8907",
+        "name" : "Request",
+        "source" : "5dcd1c7b65ea8907.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "d43e4bf749bdb512",
+        "name" : "Response",
+        "source" : "d43e4bf749bdb512.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1654442841178,
+        "stop" : 1654442841199,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db4c82e90bce49e7",
+        "name" : "Request",
+        "source" : "db4c82e90bce49e7.json",
+        "type" : "application/json",
+        "size" : 302
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1654442841201,
+        "stop" : 1654442842394,
+        "duration" : 1193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1189ece0b6d205e4",
+        "name" : "Screenshot",
+        "source" : "1189ece0b6d205e4.png",
+        "type" : "image/png",
+        "size" : 82649
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navigate to the frame section"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8924f2610ca83c7.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

@@ -1,0 +1,151 @@
+{
+  "uid" : "14968f61f97b6509",
+  "name" : "Typing text in the search field",
+  "fullName" : "Automation Practice.Typing text in the search field",
+  "historyId" : "71f056d358bcb32a742cf508ac0fb415",
+  "time" : {
+    "start" : 1654455065919,
+    "stop" : 1654455066168,
+    "duration" : 249
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Typing text in the search field"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8a49996849d4b390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654454292016,
+        "stop" : 1654454292269,
+        "duration" : 253
+      }
+    }, {
+      "uid" : "a4216054d7fe7d1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654453610618,
+        "stop" : 1654453610836,
+        "duration" : 218
+      }
+    }, {
+      "uid" : "e6034440c8940f02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654453444005,
+        "stop" : 1654453444257,
+        "duration" : 252
+      }
+    }, {
+      "uid" : "381d259f0d4bbde2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654451131687,
+        "stop" : 1654451131949,
+        "duration" : 262
+      }
+    }, {
+      "uid" : "41477cee23f65394",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654449335037,
+        "stop" : 1654449335280,
+        "duration" : 243
+      }
+    }, {
+      "uid" : "635c1f189515707a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654449160557,
+        "stop" : 1654449160741,
+        "duration" : 184
+      }
+    }, {
+      "uid" : "32c7c1f3cf84c367",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654449101918,
+        "stop" : 1654449107287,
+        "duration" : 5369
+      }
+    }, {
+      "uid" : "6ee8600bcee25df",
+      "status" : "failed",
+      "statusDetails" : "expected 'al' to equal 'Albania'      \n                      actual expected\n                      \n                      'alAlbania'\n                      ",
+      "time" : {
+        "start" : 1654448959531,
+        "stop" : 1654448964643,
+        "duration" : 5112
+      }
+    }, {
+      "uid" : "1b96bd6e593219cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654448785974,
+        "stop" : 1654448791138,
+        "duration" : 5164
+      }
+    }, {
+      "uid" : "45a1d0eadb867ebc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654448654028,
+        "stop" : 1654448659685,
+        "duration" : 5657
+      }
+    }, {
+      "uid" : "ec2b896b59f84de0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654448580880,
+        "stop" : 1654448585876,
+        "duration" : 4996
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14968f61f97b6509.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

@@ -1,0 +1,77 @@
+{
+  "uid" : "4cf366fef775fafa",
+  "name" : "\"before all\" hook for Automation Practice",
+  "fullName" : "Automation Practice.\"before all\" hook for Automation Practice",
+  "historyId" : "57075183eb6d09b07ee11cc5308aba11",
+  "time" : {
+    "start" : 1654451101043,
+    "stop" : 1654451101045,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Paga is not defined",
+  "statusTrace" : "ReferenceError: Paga is not defined\n                    at Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:8:9)\n                    at Context.executeAsync (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\shim.js:333:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Ya\\Desktop\\homeworkWdio\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Automation Practice"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "44dd3e1decc97053",
+      "status" : "broken",
+      "statusDetails" : "Paga is not defined",
+      "time" : {
+        "start" : 1654451018915,
+        "stop" : 1654451018918,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4cf366fef775fafa.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

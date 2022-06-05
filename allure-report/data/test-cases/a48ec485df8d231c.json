@@ -1,0 +1,305 @@
+{
+  "uid" : "a48ec485df8d231c",
+  "name" : "Navigate to the new tab",
+  "fullName" : "Automation Practice.Navigate to the new tab",
+  "historyId" : "9a555b063054180fbd6c84ab72f5a1ae",
+  "time" : {
+    "start" : 1654455111070,
+    "stop" : 1654455112680,
+    "duration" : 1610
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 30,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navigate to the new tab"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "312baf364ddaa4f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654454314984,
+        "stop" : 1654454316611,
+        "duration" : 1627
+      }
+    }, {
+      "uid" : "7778571df6ef8af0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654453632676,
+        "stop" : 1654453634313,
+        "duration" : 1637
+      }
+    }, {
+      "uid" : "91246277b5bfd6b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654453564978,
+        "stop" : 1654453567569,
+        "duration" : 2591
+      }
+    }, {
+      "uid" : "e41d52dc837e0a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654451153454,
+        "stop" : 1654451155137,
+        "duration" : 1683
+      }
+    }, {
+      "uid" : "de5b23eb5019f22e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654449353844,
+        "stop" : 1654449356367,
+        "duration" : 2523
+      }
+    }, {
+      "uid" : "1e2c9f11c9f667b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654449178648,
+        "stop" : 1654449180315,
+        "duration" : 1667
+      }
+    }, {
+      "uid" : "13155a63a897fc90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654446137499,
+        "stop" : 1654446139120,
+        "duration" : 1621
+      }
+    }, {
+      "uid" : "4dbf5eb95b73b8c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654444506427,
+        "stop" : 1654444508058,
+        "duration" : 1631
+      }
+    }, {
+      "uid" : "2d3687c6e4fe2493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654438769064,
+        "stop" : 1654438771798,
+        "duration" : 2734
+      }
+    }, {
+      "uid" : "a407dee74fb0ae55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654429489037,
+        "stop" : 1654429500474,
+        "duration" : 11437
+      }
+    }, {
+      "uid" : "6763bd05e35f1205",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654429321031,
+        "stop" : 1654429333178,
+        "duration" : 12147
+      }
+    }, {
+      "uid" : "65b689516979a295",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654429234508,
+        "stop" : 1654429245554,
+        "duration" : 11046
+      }
+    }, {
+      "uid" : "122abc9a32e80b71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654429110813,
+        "stop" : 1654429119365,
+        "duration" : 8552
+      }
+    }, {
+      "uid" : "b03709a0578345e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654428195990,
+        "stop" : 1654428204288,
+        "duration" : 8298
+      }
+    }, {
+      "uid" : "676f415fd660936",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654428124836,
+        "stop" : 1654428133671,
+        "duration" : 8835
+      }
+    }, {
+      "uid" : "631eb893241e9f79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654427771732,
+        "stop" : 1654427783241,
+        "duration" : 11509
+      }
+    }, {
+      "uid" : "53a15abe20d907a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654427494602,
+        "stop" : 1654427502847,
+        "duration" : 8245
+      }
+    }, {
+      "uid" : "2776eed0053f65b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654426952908,
+        "stop" : 1654426967890,
+        "duration" : 14982
+      }
+    }, {
+      "uid" : "ba9a381f1924030c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654426834574,
+        "stop" : 1654426843697,
+        "duration" : 9123
+      }
+    }, {
+      "uid" : "35735283cd119c44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654426690909,
+        "stop" : 1654426703195,
+        "duration" : 12286
+      }
+    }, {
+      "uid" : "adbc65adde6abb82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654287378611,
+        "stop" : 1654287381224,
+        "duration" : 2613
+      }
+    }, {
+      "uid" : "44687c9ee7674081",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=102.0.5005.63)",
+      "time" : {
+        "start" : 1654287082994,
+        "stop" : 1654287083032,
+        "duration" : 38
+      }
+    }, {
+      "uid" : "60c7610a0aa8b20c",
+      "status" : "broken",
+      "statusDetails" : "element (\"//*[@id=\"opentab\"]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1654287000359,
+        "stop" : 1654287010636,
+        "duration" : 10277
+      }
+    }, {
+      "uid" : "f487dc780512a645",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=102.0.5005.63)",
+      "time" : {
+        "start" : 1654286856966,
+        "stop" : 1654286857005,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "9846d5da1742000c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654286431176,
+        "stop" : 1654286437833,
+        "duration" : 6657
+      }
+    }, {
+      "uid" : "486be8c04a07672e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654286313807,
+        "stop" : 1654286321461,
+        "duration" : 7654
+      }
+    }, {
+      "uid" : "371572ac1642d2ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654286006933,
+        "stop" : 1654286017162,
+        "duration" : 10229
+      }
+    }, {
+      "uid" : "b057859dbeea319e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654285663649,
+        "stop" : 1654285669648,
+        "duration" : 5999
+      }
+    }, {
+      "uid" : "3926b3383ca8b784",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654285268926,
+        "stop" : 1654285275509,
+        "duration" : 6583
+      }
+    }, {
+      "uid" : "bc28effb59703ba3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654283773993,
+        "stop" : 1654283783363,
+        "duration" : 9370
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a48ec485df8d231c.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

@@ -1,0 +1,272 @@
+{
+  "uid" : "b4ce774f2aed55f9",
+  "name" : "Select the coutntry in search dropdown",
+  "fullName" : "Automation Practice.Select the coutntry in search dropdown",
+  "historyId" : "d18e5fe82aa806bb876fc9e04f239398",
+  "time" : {
+    "start" : 1654447884243,
+    "stop" : 1654447885323,
+    "duration" : 1080
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected Element{ …(200) } to equal 'Albania'      \n                      actual expected\n                      \n                      Element { sessionId: '61cc89c7756475dc9cac749cf88d5083Albania', elementId: 'f69d3333-6f5a-4b22-bfbd-9e31708a47de', 'element-6066-11e4-a52e-4f735466cecf': 'f69d3333-6f5a-4b22-bfbd-9e31708a47de', selector: '#ui-id-1 > li:nth-child(1)', parent: Browser { sessionId: '61cc89c7756475dc9cac749cf88d5083', capabilities: { acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '102.0.5005.63', chrome: { chromedriverVersion: '101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904})', userDataDir: 'C:\\\\Users\\\\Ya\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir25836_832895924' }, 'goog:chromeOptions': { debuggerAddress: 'localhost:57104' }, networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: {}, setWindowRect: true, strictFileInteractability: false, timeouts: { implicit: 0, pageLoad: 300000, script: 30000 }, unhandledPromptBehavior: 'dismiss and notify', 'webauthn:extension:credBlob': true, 'webauthn:extension:largeBlob': true, 'webauthn:virtualAuthenticators': true }, addCommand: [Function (anonymous)], overwriteCommand: [Function (anonymous)], addLocatorStrategy: [Function (anonymous)], config: { specs: [ './test/specs/**/*.js' ], suites: {}, exclude: [], outputDir: undefined, logLevel: 'info', logLevels: {}, excludeDriverLogs: [], bail: 0, waitforInterval: 500, waitforTimeout: 10000, framework: 'mocha', reporters: [ 'spec', [ 'allure', [Object] ] ], services: [ 'chromedriver', 'geckodriver' ], maxInstances: 10, maxInstancesPerCapability: 100, filesToWatch: [], connectionRetryTimeout: 120000, connectionRetryCount: 3, execArgv: [], runnerEnv: {}, runner: 'local', specFileRetries: 0, specFileRetriesDelay: 0, specFileRetriesDeferred: false, reporterSyncInterval: 100, reporterSyncTimeout: 5000, cucumberFeaturesWithLineNumbers: [], autoCompileOpts: { autoCompile: true, tsNodeOpts: { transpileOnly: true }, babelOpts: {} }, mochaOpts: { timeout: 60000, ui: 'bdd' }, jasmineOpts: { defaultTimeoutInterval: 10000 }, cucumberOpts: { timeout: 10000 }, onPrepare: [], onWorkerStart: [], onWorkerEnd: [], before: [], beforeSession: [ [Function: bound beforeSession], [Function: bound beforeSession] ], beforeSuite: [], beforeHook: [], beforeTest: [], beforeCommand: [], afterCommand: [], afterTest: [ [Function: bound afterTest] ], afterHook: [], afterSuite: [], afterSession: [ [Function: bound afterSession] ], after: [], onComplete: [], onReload: [], beforeFeature: [], beforeScenario: [], beforeStep: [], afterStep: [], afterScenario: [], afterFeature: [], _: [ 'run' ], $0: 'node_modules\\\\@wdio\\\\cli\\\\bin\\\\wdio.js', 'config-path': './wdio.conf.js', ignoredWorkerServices: [] } }, emit: [Function: bound ], isReactElement: false, addCommand: [Function (anonymous)], overwriteCommand: [Function (anonymous)] }\n                      ",
+  "statusTrace" : "AssertionError: expected Element{ …(200) } to equal 'Albania'\n                    at Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:36:56)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected Element{ …(200) } to equal 'Albania'      \n                      actual expected\n                      \n                      Element { sessionId: '61cc89c7756475dc9cac749cf88d5083Albania', elementId: 'f69d3333-6f5a-4b22-bfbd-9e31708a47de', 'element-6066-11e4-a52e-4f735466cecf': 'f69d3333-6f5a-4b22-bfbd-9e31708a47de', selector: '#ui-id-1 > li:nth-child(1)', parent: Browser { sessionId: '61cc89c7756475dc9cac749cf88d5083', capabilities: { acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '102.0.5005.63', chrome: { chromedriverVersion: '101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904})', userDataDir: 'C:\\\\Users\\\\Ya\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir25836_832895924' }, 'goog:chromeOptions': { debuggerAddress: 'localhost:57104' }, networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: {}, setWindowRect: true, strictFileInteractability: false, timeouts: { implicit: 0, pageLoad: 300000, script: 30000 }, unhandledPromptBehavior: 'dismiss and notify', 'webauthn:extension:credBlob': true, 'webauthn:extension:largeBlob': true, 'webauthn:virtualAuthenticators': true }, addCommand: [Function (anonymous)], overwriteCommand: [Function (anonymous)], addLocatorStrategy: [Function (anonymous)], config: { specs: [ './test/specs/**/*.js' ], suites: {}, exclude: [], outputDir: undefined, logLevel: 'info', logLevels: {}, excludeDriverLogs: [], bail: 0, waitforInterval: 500, waitforTimeout: 10000, framework: 'mocha', reporters: [ 'spec', [ 'allure', [Object] ] ], services: [ 'chromedriver', 'geckodriver' ], maxInstances: 10, maxInstancesPerCapability: 100, filesToWatch: [], connectionRetryTimeout: 120000, connectionRetryCount: 3, execArgv: [], runnerEnv: {}, runner: 'local', specFileRetries: 0, specFileRetriesDelay: 0, specFileRetriesDeferred: false, reporterSyncInterval: 100, reporterSyncTimeout: 5000, cucumberFeaturesWithLineNumbers: [], autoCompileOpts: { autoCompile: true, tsNodeOpts: { transpileOnly: true }, babelOpts: {} }, mochaOpts: { timeout: 60000, ui: 'bdd' }, jasmineOpts: { defaultTimeoutInterval: 10000 }, cucumberOpts: { timeout: 10000 }, onPrepare: [], onWorkerStart: [], onWorkerEnd: [], before: [], beforeSession: [ [Function: bound beforeSession], [Function: bound beforeSession] ], beforeSuite: [], beforeHook: [], beforeTest: [], beforeCommand: [], afterCommand: [], afterTest: [ [Function: bound afterTest] ], afterHook: [], afterSuite: [], afterSession: [ [Function: bound afterSession] ], after: [], onComplete: [], onReload: [], beforeFeature: [], beforeScenario: [], beforeStep: [], afterStep: [], afterScenario: [], afterFeature: [], _: [ 'run' ], $0: 'node_modules\\\\@wdio\\\\cli\\\\bin\\\\wdio.js', 'config-path': './wdio.conf.js', ignoredWorkerServices: [] } }, emit: [Function: bound ], isReactElement: false, addCommand: [Function (anonymous)], overwriteCommand: [Function (anonymous)] }\n                      ",
+    "statusTrace" : "AssertionError: expected Element{ …(200) } to equal 'Albania'\n                    at Context.<anonymous> (C:\\Users\\Ya\\Desktop\\homeworkWdio\\test\\specs\\test.js:36:56)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654447884244,
+        "stop" : 1654447884269,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b0c8dbaa455b285",
+        "name" : "Request",
+        "source" : "3b0c8dbaa455b285.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "dc9abe8c99d94ed1",
+        "name" : "Response",
+        "source" : "dc9abe8c99d94ed1.json",
+        "type" : "application/json",
+        "size" : 1042
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654447884274,
+        "stop" : 1654447884289,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b69df724100f0b89",
+        "name" : "Request",
+        "source" : "b69df724100f0b89.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "351f4fa8c45dc49",
+        "name" : "Response",
+        "source" : "351f4fa8c45dc49.json",
+        "type" : "application/json",
+        "size" : 1042
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654447884776,
+        "stop" : 1654447884853,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9b5538f43fdb",
+        "name" : "Request",
+        "source" : "f9b5538f43fdb.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "cfbeb66b0ea281ee",
+        "name" : "Response",
+        "source" : "cfbeb66b0ea281ee.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1654447884861,
+        "stop" : 1654447884879,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81cb8e0c8e74196b",
+        "name" : "Request",
+        "source" : "81cb8e0c8e74196b.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "ac02d4c2ef2228df",
+        "name" : "Response",
+        "source" : "ac02d4c2ef2228df.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654447884880,
+        "stop" : 1654447884894,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "78ba561fd52d05af",
+        "name" : "Request",
+        "source" : "78ba561fd52d05af.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "ca3b3a0d9a20a976",
+        "name" : "Response",
+        "source" : "ca3b3a0d9a20a976.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/f69d3333-6f5a-4b22-bfbd-9e31708a47de/click",
+      "time" : {
+        "start" : 1654447884900,
+        "stop" : 1654447884948,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654447884948,
+        "stop" : 1654447884960,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cde823399523872",
+        "name" : "Request",
+        "source" : "cde823399523872.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "f75b1ec01442c5a6",
+        "name" : "Response",
+        "source" : "f75b1ec01442c5a6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1654447884966,
+        "stop" : 1654447885129,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5734e8ad7224a35d",
+        "name" : "Screenshot",
+        "source" : "5734e8ad7224a35d.png",
+        "type" : "image/png",
+        "size" : 50775
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select the coutntry in search dropdown"
+  }, {
+    "name" : "package",
+    "value" : "Automation Practice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b4ce774f2aed55f9.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}
