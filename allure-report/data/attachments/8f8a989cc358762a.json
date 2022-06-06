@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "#dropdown-class-example option:nth-child(1)"
-}

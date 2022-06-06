@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "div.page-wrapper > div:nth-child(3) > section.courses-section > div.text-center > a"
-}
