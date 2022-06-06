@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"opentab\"]\"}\n  (Session info: chrome=102.0.5005.63)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x0103B8F3+2406643]\n\tOrdinal0 [0x00FCAF31+1945393]\n\tOrdinal0 [0x00EBC748+837448]\n\tOrdinal0 [0x00EE92E0+1020640]\n\tOrdinal0 [0x00EE957B+1021307]\n\tOrdinal0 [0x00F16372+1205106]\n\tOrdinal0 [0x00F042C4+1131204]\n\tOrdinal0 [0x00F14682+1197698]\n\tOrdinal0 [0x00F04096+1130646]\n\tOrdinal0 [0x00EDE636+976438]\n\tOrdinal0 [0x00EDF546+980294]\n\tGetHandleVerifier [0x012A9612+2498066]\n\tGetHandleVerifier [0x0129C920+2445600]\n\tGetHandleVerifier [0x010D4F2A+579370]\n\tGetHandleVerifier [0x010D3D36+574774]\n\tOrdinal0 [0x00FD1C0B+1973259]\n\tOrdinal0 [0x00FD6688+1992328]\n\tOrdinal0 [0x00FD6775+1992565]\n\tOrdinal0 [0x00FDF8D1+2029777]\n\tBaseThreadInitThunk [0x75CDFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77027A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77027A4E+238]\n"
-}
