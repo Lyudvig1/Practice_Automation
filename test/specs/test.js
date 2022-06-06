@@ -11,13 +11,13 @@ describe("Testing /Automation Practice/ page", () => {
         await OpenPage.open(env.BASE_URL);
     });
 
-    it.only("Select the radio button", async () => {
+    it("Select the radio button", async () => {
         await (await Items.radioButtons(2)).waitForDisplayed();
         await Items.radioBtnAction(2);
         expect(await (await Items.radioButtons(2)).isSelected()).to.be.true;
     });
 
-    it.only(" Select an item from the dynamic dropdown", async () => {
+    it(" Select an item from the dynamic dropdown", async () => {
         await Items.clickExampleDropdown();
         await (await Items.dynamicDropDown(2)).isExisting();
         await Items.clickDropDownItem(2)
