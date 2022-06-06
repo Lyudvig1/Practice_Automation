@@ -23,25 +23,30 @@ class Alert extends BasePage {
     }
 
     async typeInAlertField(string) {
-        await (await this.alertField).setValue(string);
+        let inputAlert = await this.alertField;
+        await inputAlert.setValue(string);
     }
 
     async clickConfirmBtn() {
-        await (await this.confirmBtn).click()
+        let btnConfirm = await this.confirmBtn;
+        await btnConfirm.click();
     }
 
     async typeInHiddenField(string) {
-        await (await this.hiddenTextField).scrollIntoView();
-        await (await this.hiddenTextField).waitForDisplayed();
-        await (await this.hiddenTextField).setValue(string);
+        let hideInput = await this.hiddenTextField;
+        await hideInput.scrollIntoView();
+        await hideInput.waitForDisplayed();
+        await hideInput.setValue(string);
     }
 
     async clickOnHiddenBtn() {
-        await (await this.hiddenBtn).click();
+        let btnHide = await this.hiddenBtn
+        await btnHide.click();
     }
 
     async clickOnShowBtn() {
-        await (await this.showBtn).click();
+        let btnShow = await this.showBtn
+        await btnShow.click();
     }
 
 }

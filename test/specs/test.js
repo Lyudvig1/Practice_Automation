@@ -11,48 +11,57 @@ describe("Testing /Automation Practice/ page", () => {
         await OpenPage.open(env.BASE_URL);
     });
 
-    it.only("Select the radio button", async () => {
-        await (await Items.radioButtons(2)).waitForDisplayed();
+    it("Select the radio button", async () => {
+        let selectRadioBtn = await Items.radioButtons(2);
+        await selectRadioBtn.waitForDisplayed();
         await Items.radioBtnAction(2);
-        expect(await (await Items.radioButtons(2)).isSelected()).to.be.true;
+        expect(await selectRadioBtn.isSelected()).to.be.true;
     });
 
-    it.only(" Select an item from the dynamic dropdown", async () => {
+    it(" Select an item from the dynamic dropdown", async () => {
+        let dropdownDynamic = await Items.dynamicDropDown(2);
+        let itemName = await Items.exampleDropdown;
         await Items.clickExampleDropdown();
-        await (await Items.dynamicDropDown(2)).isExisting();
+        await dropdownDynamic.isExisting();
         await Items.clickDropDownItem(2)
-        expect(await (await Items.exampleDropdown).getText()).to.contain("Option1");
+        expect(await itemName.getText()).to.contain("Option1");
     });
 
     it("Select an option from the checkbox", async () => {
-        await (await Items.checkbox).waitForDisplayed()
+        let checkbox = await Items.checkbox;
+        let checkboxes = await Items.checkboxes;
+        await checkbox.waitForDisplayed()
         await Items.selectCheckbox();
-        expect(await (await Items.checkboxes).isSelected()).to.be.true;
+        expect(await checkboxes.isSelected()).to.be.true;
     })
 
     it("Typing text in the search field", async () => {
+        let searchInputField = await Items.textField;
         await Items.typeText();
-        expect(await (await Items.textField).getValue()).to.be.equals("Albania");
+        expect(await searchInputField.getValue()).to.be.equals("Albania");
     })
 
     it("Select the coutntry in search dropdown", async () => {
+        let searchInput = await Items.textField;
         await Items.selectTheCountry();
-        await (await Items.textField).waitForDisplayed();
-        expect(await (await Items.textField).getValue()).to.contain("Albania");
+        await searchInput.waitForDisplayed();
+        expect(await searchInput.getValue()).to.contain("Albania");
     })
 
     it("Navigate to the new window", async () => {
+        let popUpTitle = await SwitchTo.popUpTitle;
         await SwitchTo.clickOnNewWindow();
         await browser.switchWindow("qaclickacademy.com")
         await SwitchTo.popUpTitle.waitForDisplayed();
-        expect(await (await SwitchTo.popUpTitle).getText()).to.contain("Join Our Newsletter");
+        expect(await popUpTitle.getText()).to.contain("Join Our Newsletter");
         await SwitchTo.clickCancelIcon();
     })
 
     it("Should scroll down to the page footer section", async () => {
+        let footer = await SwitchTo.navigateToWindowFooter;
         await SwitchTo.scrollToFooter();
-        await (await SwitchTo.navigateToWindowFooter).waitForDisplayed();
-        expect(await (await SwitchTo.navigateToWindowFooter).isDisplayed()).to.be.true;
+        await footer.waitForDisplayed();
+        expect(await footer.isDisplayed()).to.be.true;
         await browser.pause(3000);
         await browser.closeWindow();
     })
@@ -61,15 +70,18 @@ describe("Testing /Automation Practice/ page", () => {
         await browser.switchWindow("Practice Page")
         await SwitchTo.clickOnOpenTab();
         await browser.switchWindow("Rahul Shetty Academy");
-        expect(await (await browser.getUrl())).to.be.equals("https://www.rahulshettyacademy.com/");
+        let tabUrl = await browser.getUrl();
+        expect(await tabUrl).to.be.equals("https://www.rahulshettyacademy.com/");
     })
 
     it("Should scroll down to the selected item and click on it", async () => {
         await SwitchTo.clickOnItem();
         await browser.switchWindow("Rahul Shetty Academy")
-        expect(await (await browser.getUrl())).to.be.equals("https://www.rahulshettyacademy.com/about-my-mission");
+        let windowUrl = await browser.getUrl();
+        expect(await windowUrl).to.be.equals("https://www.rahulshettyacademy.com/about-my-mission");
         await (await SwitchTo.aboutUsPageTitle).waitForDisplayed();
-        expect(await (await SwitchTo.aboutUsPageTitle).getText()).to.be.equals("ABOUT US")
+        let pageTitle = await SwitchTo.aboutUsPageTitle;
+        expect(await pageTitle.getText()).to.be.equals("ABOUT US")
         await browser.pause(3000);
     })
 
@@ -77,33 +89,40 @@ describe("Testing /Automation Practice/ page", () => {
         await browser.switchWindow("Practice Page");
         await Shows.typeInAlertField("Joe");
         await Shows.clickConfirmBtn();
-        expect(await (await browser.isAlertOpen())).to.be.true;
-        expect(await (await browser.getAlertText())).to.contain("Joe");
+        let alertOpened = await browser.isAlertOpen();
+        expect(await alertOpened).to.be.true;
+        let alertText = await browser.getAlertText();
+        expect(await alertText).to.contain("Joe");
         await browser.dismissAlert();
-        expect(await (await browser.isAlertOpen())).to.be.false;
+        let alertClosed = await browser.isAlertOpen();
+        expect(await alertClosed).to.be.false;
     })
 
     it("Checked hide/show input field", async () => {
         await Shows.typeInHiddenField("PC");
         await Shows.clickOnHiddenBtn();
-        expect(await (await Shows.hiddenTextField).isDisplayed()).to.be.false;
+        let hideInput = await Shows.hiddenTextField;
+        expect(await hideInput.isDisplayed()).to.be.false;
         await Shows.clickOnShowBtn();
-        expect(await (await Shows.hiddenTextField).isDisplayed()).to.be.true;
+        let showInput = await Shows.hiddenTextField;
+        expect(await showInput.isDisplayed()).to.be.true;
         await browser.pause(2000);
-        expect(await (await Shows.hiddenTextField).getValue()).to.be.equals("PC");
+        expect(await showInput.getValue()).to.be.equals("PC");
 
     })
 
     it("Navigate to the iframe section", async () => {
+        let iframeFooter = await FrameHover.iframeSectionFooter;
         await FrameHover.switchToIframe();
         await FrameHover.scrollIntoIframeFooter();
-        expect(await (await FrameHover.iframeSectionFooter).getText()).to.contain("RahulShettyAcademy");
+        expect(await iframeFooter.getText()).to.contain("RahulShettyAcademy");
     })
 
     it("Select the item in iframe section", async () => {
         await FrameHover.hoverToItem();
         await FrameHover.clickOnHoverItem(2);
-        expect(await (await FrameHover.selectedPageTitle).getText()).to.be.equals("PART TIME JOBS")
+        let newPageTitle = await FrameHover.selectedPageTitle;
+        expect(await newPageTitle.getText()).to.be.equals("PART TIME JOBS")
         await browser.pause(2000);
     })
 

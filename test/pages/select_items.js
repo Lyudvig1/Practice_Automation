@@ -7,15 +7,17 @@ class SelectItems extends BasePage {
     }
 
     async radioBtnAction(index) {
-        await (await this.radioButtons(index)).waitForDisplayed();
-        await (await this.radioButtons(index)).click();
+        let radioBtn = await this.radioButtons(index);
+        await radioBtn.waitForDisplayed();
+        await radioBtn.click();
     }
 
     get exampleDropdown() {
         return $("#dropdown-class-example");
     }
     async clickExampleDropdown() {
-        await (await this.exampleDropdown).click();
+        let dropdownClick = await this.exampleDropdown;
+        await dropdownClick.click();
     }
 
     async dynamicDropDown(index) {
@@ -23,8 +25,9 @@ class SelectItems extends BasePage {
     }
 
     async clickDropDownItem(index) {
-        await (await this.dynamicDropDown(index)).waitForDisplayed();
-        await (await this.dynamicDropDown(index)).click();
+        let itemClick = await this.dynamicDropDown(index)
+        await itemClick.waitForDisplayed();
+        await itemClick.click();
     }
 
     get checkbox() {
@@ -36,7 +39,8 @@ class SelectItems extends BasePage {
     }
 
     async selectCheckbox() {
-        await (await this.checkboxes).click();
+        let boxSelect = await this.checkboxes;
+        await boxSelect.click();
     }
 
     get textField() {
@@ -44,7 +48,8 @@ class SelectItems extends BasePage {
     }
 
     async typeText() {
-        await (await this.textField).setValue("Albania");
+        let fillInput = await this.textField;
+        await fillInput.setValue("Albania");
     }
 
     get searchDropdown() {
@@ -52,8 +57,9 @@ class SelectItems extends BasePage {
     }
 
     async selectTheCountry() {
-        await (await this.searchDropdown).waitForDisplayed();
-        await (await this.searchDropdown).click();
+        let countrySelect = await this.searchDropdown;
+        await countrySelect.waitForDisplayed();
+        await countrySelect.click();
 
     }
 

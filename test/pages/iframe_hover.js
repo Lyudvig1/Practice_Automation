@@ -17,8 +17,9 @@ class IframeHover extends BasePage {
     }
 
     async scrollIntoIframeFooter() {
-        await (await this.iframeSectionFooter).scrollIntoView();
-        await (await this.iframeSectionFooter).waitForDisplayed();
+        let iframeFooter = await this.iframeSectionFooter;
+        await iframeFooter.scrollIntoView();
+        await iframeFooter.waitForDisplayed();
     }
 
     get hoverItem() {
@@ -26,9 +27,10 @@ class IframeHover extends BasePage {
     }
 
     async hoverToItem() {
-        await (await this.hoverItem).scrollIntoView();
-        await (await this.hoverItem).waitForDisplayed();
-        await (await this.hoverItem).moveTo();
+        let hover = await this.hoverItem;
+        await hover.scrollIntoView();
+        await hover.waitForDisplayed();
+        await hover.moveTo();
     }
 
     async selectHoverItem(index) {
@@ -36,7 +38,8 @@ class IframeHover extends BasePage {
     }
 
     async clickOnHoverItem(index) {
-        await (await this.selectHoverItem(index)).click();
+        let hoverClick = await this.selectHoverItem(index);
+        await hoverClick.click();
     }
 
     get selectedPageTitle() {

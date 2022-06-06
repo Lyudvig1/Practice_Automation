@@ -33,7 +33,7 @@ exports.config = {
     }]],
     mochaOpts: {
         ui: 'bdd',
-        timeout: 600000
+        timeout: 15000
     },
     
     beforeSession: function () {

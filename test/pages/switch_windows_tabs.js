@@ -7,8 +7,9 @@ class Switch extends BasePage {
     }
 
     async clickOnNewWindow() {
-        await (await this.linkNewWindow).waitForDisplayed();
-        await (await this.linkNewWindow).click();
+        let linkTo = await this.linkNewWindow;
+        await linkTo.waitForDisplayed();
+        await linkTo.click();
     }
 
     get popUpTitle() {
@@ -20,7 +21,8 @@ class Switch extends BasePage {
     }
 
     async clickCancelIcon() {
-        await (await this.cancelIcon).click();
+        let cancelBtn = await this.cancelIcon;
+        await cancelBtn.click();
     }
 
     get navigateToWindowFooter() {
@@ -28,7 +30,8 @@ class Switch extends BasePage {
     }
 
     async scrollToFooter() {
-        await (await this.navigateToWindowFooter).scrollIntoView();
+        let scrollTo = await this.navigateToWindowFooter;
+        await scrollTo.scrollIntoView();
     }
 
     get linkNewTab() {
@@ -36,8 +39,9 @@ class Switch extends BasePage {
     }
 
     async clickOnOpenTab() {
-        await (await this.linkNewTab).waitForDisplayed();
-        await (await this.linkNewTab).click();
+        let openTab = await this.linkNewTab;
+        await openTab.waitForDisplayed();
+        await openTab.click();
     }
 
     get getItemInNewtab() {
@@ -45,9 +49,10 @@ class Switch extends BasePage {
     }
 
     async clickOnItem() {
-        await (await this.getItemInNewtab).scrollIntoView();
-        await (await this.getItemInNewtab).waitForDisplayed();
-        await (await this.getItemInNewtab).click();
+        let clickItem = await this.getItemInNewtab;
+        await clickItem.scrollIntoView();
+        await clickItem.waitForDisplayed();
+        await clickItem.click();
     }
 
     get aboutUsPageTitle() {
