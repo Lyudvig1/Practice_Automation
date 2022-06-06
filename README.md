@@ -22,4 +22,3 @@ Find information above for running tests
 * In Vs Code to checking allure report result run:
   ```
   npx allure open
-# Automation_Practice
