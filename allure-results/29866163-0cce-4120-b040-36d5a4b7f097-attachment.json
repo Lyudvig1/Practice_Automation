@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"label:nth-child(2) .radioButton\"}\n  (Session info: chrome=102.0.5005.63)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00B1B8F3+2406643]\n\tOrdinal0 [0x00AAAF31+1945393]\n\tOrdinal0 [0x0099C748+837448]\n\tOrdinal0 [0x009C92E0+1020640]\n\tOrdinal0 [0x009C957B+1021307]\n\tOrdinal0 [0x009F6372+1205106]\n\tOrdinal0 [0x009E42C4+1131204]\n\tOrdinal0 [0x009F4682+1197698]\n\tOrdinal0 [0x009E4096+1130646]\n\tOrdinal0 [0x009BE636+976438]\n\tOrdinal0 [0x009BF546+980294]\n\tGetHandleVerifier [0x00D89612+2498066]\n\tGetHandleVerifier [0x00D7C920+2445600]\n\tGetHandleVerifier [0x00BB4F2A+579370]\n\tGetHandleVerifier [0x00BB3D36+574774]\n\tOrdinal0 [0x00AB1C0B+1973259]\n\tOrdinal0 [0x00AB6688+1992328]\n\tOrdinal0 [0x00AB6775+1992565]\n\tOrdinal0 [0x00ABF8D1+2029777]\n\tBaseThreadInitThunk [0x75CDFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77027A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77027A4E+238]\n"
-}

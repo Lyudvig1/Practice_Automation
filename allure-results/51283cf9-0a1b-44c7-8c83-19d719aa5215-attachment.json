@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "div.nav-outer.clearfix > nav > div.navbar-collapse.collapse.clearfix > ul > li.dropdown > ul > li:nth-child(undefined) > a"
-}

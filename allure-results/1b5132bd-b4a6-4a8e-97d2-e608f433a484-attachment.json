@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "#ui-id-1 > li:nth-child(1)"
-}
